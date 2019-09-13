@@ -94,4 +94,62 @@ html {
     border-radius: 0 0 10px 0;
 }
 
+@media only screen and (max-width: 744px) {
+    .home-work-list {
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+    }
 
+    .main__title  {
+        font-size: 0.87rem;
+    }
+
+    .main__title h1 {
+        font-size: 1.2rem; 
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main__title  {
+        font-size: 0.87rem;
+    }
+
+    .main__title h1 {
+        font-size: 1.2rem; 
+    }
+
+    .logo {
+        width: 32%;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    .main__title  {
+        font-size: 0.5rem;
+    }
+
+    .main__title h1 {
+        font-size: 0.87rem; 
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .main__title  {
+        font-size: 0.5rem;
+    }
+
+    .main__title h1 {
+        font-size: 0.87rem; 
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 745px) {
+    .logo {
+        width: 32%;
+    }
+
+}
