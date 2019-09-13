@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	font-family: 'Blinker', sans-serif;
+	color: #fff;
+	scroll-behavior: smooth;
+}
+
+header {
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	text-indent: 20px;
+	line-height: 1.3;
+	padding: 0 10px 0 10px;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main__title {
+	font-size: 4rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.cars {
+	font-size: 2rem;
+	margin-top: 50px;
+}
+
+.cars__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #fff;
+	height: 100%;
+	width: 200px;
+	height: 200px;
+	border-radius: 30px 0 30px 0;
+	margin-top: 50px;
+	font-size: 2rem;
+	color: #15E2E9FF;
+	transition: background 0.7s;
+}
+
+.cars__list:hover {
+	background: #0094FF80;
+}
+
+
+
+.car__logo {
+	width: 50%;
+
+}
+
+.cars__brand {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.car__card {
+	display: flex;
+	align-items: center;
+	width: 150px;
+	border: 1px solid #fff;
+	border-radius: 30px 0 30px 0;
+	text-align: center;
+	transition: background 0.7s;
+}
+
+.car__card:hover {
+	background: #0094FF80;
+}
+
+.navigation {
+	margin-top: 50px;
+	border-top: 1px solid #fff;
+}
+
+.nav__title {
+	font-size: 1.5rem;
+	color: #15E2E9FF;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.back__btn {
+	font-size: 1.4rem;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+
+.car__title {
+	font-size: 2.5rem;
+	color: #15E2E9FF;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.car__sub-title {
+	font-size: 1.5rem;
+	color: #04FA9EFF;
+	font-weight: bold;
+	padding: 15px 0 15px 10px;
+}
+
+.cars__models {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.car__img {
+	width: 500px;
+}
+
+.back__layout {
+	background: #40404080;
+}
+
+.model__title {
+	font-size: 1.5rem;
+	padding: 20px 0 10px 0;
+	color: #04FA9EFF;
+}
+.header__fix {
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	background-attachment: fixed;
+}
+
+.arrow__up {
+	padding-right: 17px;
+}
+.arrow {
+	padding-right: 10px;
+}

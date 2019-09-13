@@ -1,0 +1,326 @@
+* {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+	font-family: 'Russo One', sans-serif;
+}
+
+.bg__container a {
+	height: 90vh;
+	width: 50%;
+	text-decoration: none;
+}
+
+
+p {
+	text-indent: 20px;
+	line-height: 1.3;
+}
+.contents {
+	max-width: 960px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: 70% 30%;
+	grid-template-areas: "main-title main-title"
+						 "main-con aside-con";
+}
+
+.bg__layout {
+	background: url(../img/The-Hardkiss-bg.jpg) no-repeat center top / cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.bg__container {
+	display: flex;
+	height: 90vh;
+	width: 100%;
+}
+.general__title {
+	height: 10vh;
+	font-size: 3.5rem;
+	text-align: center;
+	background: #000;
+	color: #0FF;
+	font-weight: bold;
+}
+.bg__left {
+	background: url(../img/bg-left.jpg) no-repeat center top / cover;
+	height: 90vh;
+	width: 100%;
+	transition: opacity 1s;	
+}
+
+.bg__center {
+	background: url(../img/bg-right.jpg) no-repeat center top / cover;
+	height: 90vh;
+	width: 100%;
+	transition: opacity 1s;
+	cursor: pointer;
+}
+
+.bg__right {
+	background: url(../img/hardkiss.jpg) no-repeat center top / cover;
+	height: 90vh;
+	width: 100%;
+	transition: opacity 1s;
+	cursor: pointer;
+}
+
+.bg__left:hover {
+	opacity: .5;
+}
+
+.bg__center:hover {
+	opacity: .5;
+}
+
+.bg__right:hover {
+	opacity: .5;
+}
+
+.bio__title {
+	font-size: 3rem;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #A5FF7FFF;
+	background: #80808080;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.main__title {
+	grid-area: main-title;
+	color: #FF0;
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0 20px 0;
+}
+
+.content {
+	grid-area: main-con;
+	color: #fff;
+}
+
+.sub__content__title {
+	font-size: 1.7rem;
+	padding: 10px 0 10px 0;
+	color: #F7E;
+}
+
+.aside {
+	grid-area: aside-con;
+	padding-left: 20px;
+}
+
+.photo {
+	width: 25vw;
+}
+
+.actor__bio, .my__bio {
+	background: #000;
+}
+
+.nav {
+	width: 100%;
+}
+
+.nav__list {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 1.3rem;
+}
+
+.nav__list li {
+	padding-top: 15px;
+	border-bottom:  1px solid #F60;
+	
+}
+
+.nav__list a {
+	text-decoration: none;
+	color: #F60;
+}
+
+.nav__list a:hover {
+	color: #C14D00FF;
+}
+
+.logo_hardkiss {
+	width: 40%;
+	padding-top: 25px;
+}
+
+.header__hardkiss {
+	display: flex;
+}
+
+.menu__items {
+	display: flex;
+	justify-content: space-around;
+	width: 43vw;
+	padding-top: 40px;
+}
+
+.menu__items li>a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+
+.bio__hardkiss {
+	width: 48%;
+	padding-top: 50px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	float: left;
+}
+
+.video {
+	display: none;
+	border-radius: 0 40px 40px 0;
+	width: 40%;
+}
+
+.fav__video {
+	width: 250px;
+	height: 180px;
+	cursor: pointer;
+}
+
+.aside__hardkiss {
+	width: 25%;
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	background: #00000080;
+	border-radius: 40px 0 0 40px;
+	position: absolute;
+	right: 0;
+}
+
+.other__video {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 70vh;
+	overflow-y: scroll;
+}
+
+.other_video_title {
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+.other_video_content {
+	margin: 10px 0 10px 0;
+}
+
+.other_video_content:hover {
+	box-shadow: 0 0 5px  #fff;
+}
+
+.video_title {
+	font-size: 1.1rem;
+	padding: 8px 0 8px 0;
+}
+
+
+.disk {
+	display: none;
+	margin-top: 40px;
+	width: 35%;
+	height: 47vh;
+	overflow-y: scroll;
+}
+
+dt {
+	color: #B70000FF;
+	font-size: 1.1rem;
+}
+
+dd {
+	padding-left: 20px;
+}
+
+.h2__title {
+	font-size: 1.3rem;
+	padding-bottom: 10px;
+}
+
+
+.fav_video__title {
+	padding-top: 39px;
+	font-size: 1.3rem;
+	color: #000;
+
+}
+
+.music {
+	display: none;
+	margin-top: 40px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.social {
+	display: flex;
+	justify-content: space-around;
+}
+
+.social a {
+	color: #fff;
+	font-size: 1.7rem;
+	text-decoration: none;
+	text-align: center;
+	background: #00000080;
+	border-radius: 15px 15px 0 0;
+	width: 80px;
+	padding-top: 15px;
+}
+
+.social a:hover {
+	color: #B70000FF;
+}

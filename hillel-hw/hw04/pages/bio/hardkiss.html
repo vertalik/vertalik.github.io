@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>The Hardkiss</title>
+	<link rel="stylesheet" href="../../assets/style/cssreset.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../assets/style/all.css">
+	<link rel="stylesheet" href="../../assets/style/style.css">
+</head>
+<body>
+	<div class="bg__layout">
+		<div class="wrapper">
+			<header class="header__hardkiss">
+				<section class="logo" aria-label="Логотип группы">
+					<img src="../../assets/img/logo_hardkiss.png" class="logo_hardkiss" alt="Логотип музыкальной группы The Hardkiss">
+				</section>
+				<section class="navigation" aria-label="Меню навигации">
+					<nav>
+						<ul class="menu__items">
+							<li><a href="#" onclick="showHide('video')">Видео</a>
+							</li>
+							<li><a href="#" onclick="showHide('music')">Музыка</a></li>
+							<li><a href="#" onclick="showHide('bio__hardkiss')">Биография</a></li>
+							<li><a href="#" onclick="showHide('disk')">Дискография</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+			</header>
+			<main class="main">
+				<article id="bio__hardkiss" class="bio__hardkiss" aria-label="Биография музыкальной группы The Hardkiss">
+					<p>
+						The Hardkiss — украинская рок-группа, появившаяся в 2011 году. Авторство всех песен группы принадлежит её участникам — Юлии Саниной и Валерию Бебко, который также выступает креативным продюсером The Hardkiss. Над образами участников группы работают стилисты Слава Чайка и Виталик Дацюк.
+					</p>
+					<p>
+						Лучшая рок-группа Украины в 2017 году по версии YUNA. Лучший альтернативный проект 2016 и 2017 года по версии M1 Music Awards
+					</p>
+				</article>
+				<article id="disk" class="disk" aria-label="Дискография группы">
+					<h2 class="h2__title">Дискография</h2>
+					<dl>
+						<dt>Альбомы</dt>
+						<dd>2014 — «Stones and Honey»</dd>
+						<dd>2017 — «Perfection is a Lie»</dd>
+						<dd>2018 — «Залізна ластівка»</dd>
+						<dt>Синглы</dt>
+						<dd>2011 — «Babylon»</dd>
+						<dd>2011 — «Dance With Me»</dd>
+						<dd>2012 — «October»</dd>
+						<dd>2013 — «Part Of Me»</dd>
+						<dd>2013 — «In Love»</dd>
+						<dd>2013 — «Under The Sun»</dd>
+						<dd>2013 — «Shadows Of Time»</dd>
+						<dd>2014 — «Tell Me Brother»</dd>
+						<dd>2014 — «Hurricane»</dd>
+						<dd>2014 — «Прірва»</dd>
+						<dd>2014 — «Stones»</dd>
+						<dd>2014 — «Strange Moves»</dd>
+						<dd>2015 — «PiBiP»</dd>
+						<dd>2015 — «Organ»</dd>
+						<dd>2015 — «Tony, Talk!»</dd>
+						<dd>2016 — «Helpless»</dd>
+						<dd>2016 — «Perfection»</dd>
+						<dd>2016 — «Rain»</dd>
+						<dd>2016 — «Closer»</dd>
+						<dd>2017 — «Антарктида»</dd>
+						<dd>2017 — «Журавлi»</dd>
+						<dd>2017 — «Lovers»</dd>
+						<dd>2017 — «Кораблі»</dd>
+						<dd>2018 — «Мелодія»</dd>
+						<dd>2018 — «Коханцi»</dd>
+						<dd>2018 — «Free Me»</dd>
+						<dd>2019 — «Сердце»</dd>
+					</dl>
+				</article>
+				<section id="music" class="music" aria-label="Музыкальные композиции">
+					<h2 class="h2__title">Музыка</h2>
+					<dl>
+						<dt>1. The Hardkiss - Корабли</dt>
+						<dd><audio src="../../assets/audio/hardkiss_korabli.mp3" title="Аудио дорожка The Hardkiss - Корабли" controls></audio></dd>
+						<dt>2. The Hardkiss - Organ</dt>
+						<dd><audio src="../../assets/audio/hardkiss_organ.mp3" title="Аудио дорожка The Hardkiss - Орган" controls></audio></dd>
+						<dt>3. The Hardkiss - Мелодія</dt>
+						<dd><audio src="../../assets/audio/hardkiss_melody.mp3" title="Аудио дорожка The Hardkiss - Мелодия" controls></audio></dd>
+					</dl>
+				</section>
+				<section  id="video" class="video" aria-label="Лучшее видео">
+					<h2 class="fav_video__title">Любимый видео-клип</h2>
+					<video class="fav__video" title="Видео-клип The Hardkiss - Stones" src="../../assets/video/hardkiss_stones.mp4" controls></video>
+				</section>
+			</main>
+			<aside class="aside__hardkiss">
+				<section class="other__video" aria-label="Остальные клипы">
+					<h2 class="other_video_title">Другие клипы The Hardkiss</h2>
+					<iframe width="230" height="180" src="https://www.youtube.com/embed/eIx_W9BDKpA" class="other_video_content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Видео-клип The Hardkiss - Корабли"></iframe>
+					<iframe width="230" height="180" src="https://www.youtube.com/embed/yHRuCsSz2GA" class="other_video_content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Видео-клип The Hardkiss - Антарктида"></iframe>
+					<iframe width="230" height="180" src="https://www.youtube.com/embed/2fLtqC2BqFo" class="other_video_content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Видео-клип The Hardkiss - Любовники"></iframe>
+					<iframe width="230" height="180" src="https://www.youtube.com/embed/IUiei0yqlas" class="other_video_content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Видео-клип The Hardkiss - Мелодия"></iframe>
+					<iframe width="230" height="180" src="https://www.youtube.com/embed/-n-GpMTiL94" class="other_video_content" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Видео-клип The Hardkiss - Орган"></iframe>
+				</section>
+			</aside>
+			<footer class="footer">
+				<section class="social" aria-label="Социальные сети">
+					<a href="https://uk-ua.facebook.com/THEHARDKISS" target="_blank" class="fab fa-facebook" title="Facebook"></a>
+					<a href="https://www.instagram.com/explore/tags/hardkiss/?hl=en" target="_blank" class="fab fa-instagram" title="Instagram"></a>
+					<a href="https://twitter.com/the_hardkiss?lang=en" target="_blank" class="fab fa-twitter" title="Twitter"></a>
+					<a href="https://www.youtube.com/user/THEHARDKISS" target="_blank" class="fab fa-youtube" title="Youtube"></a>
+					<a href="https://t.me/the_hardkiss" target="_blank" class="fab fa-telegram" title="Telegram"></a>
+					<a href="../../index.html" class="fas fa-home" title="Вернуться домой"></a>
+				</section>
+			</footer>
+		</div>
+</div>
+	<script src="../../assets/js/main.js"></script>
+</body>
+</html>

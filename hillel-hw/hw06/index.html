@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="style/cssreset.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="contact__us">
+			<h1 class="main__title">Свяжитесь с нами</h1>
+			<div class="main__form">
+				<form action="http://hillel.zilberstein.s-host.net/register.php" method="POST" class="form__items">
+					<input type="text" name="login" placeholder="Введите логин*" required>
+					<input type="password" name="password" placeholder="Введите пароль*" required>
+					<input type="text" name="last_name" placeholder="Введите фамилию*" required>
+					<input type="text" name="name" placeholder="Введите имя*" required>
+					<div class="gender__items">
+						<label>Выберите пол: </label>
+						<label>
+							<input type="radio" name="gender" value="male" required>Мужской
+						</label>
+						<label>
+							<input type="radio" name="gender" value="female" required>Женский
+						</label>
+					</div>
+					<label for="birthday">Введите день рожденья:</label><input type="date" id="birthday" name="birthday" required>
+					<input type="email" name="email" placeholder="Введите свой E-mail*" required>
+					<input type="text" name="country" placeholder="Введите страну*" required>
+					<input type="text" name="city" placeholder="Введите свой город*" required>
+					<input type="number" min="1" max="50" placeholder="Какой опыт работы? (лет)*" required>
+					<input type="url" name="url" placeholder="Ваш сайт">
+					<input type="tel" name="phone" placeholder="Введите номер сотового">
+					<label for="about_self">О себе: </label><textarea id="about_self" name="about_self"></textarea>
+					<label for="lang">Выберите язык: </label><select id="lang" name="lang">
+						<option value="rus">Русский</option>
+						<option value="en">Английский</option>
+						<option value="ua">Украинский</option>
+					</select>
+					<label>
+						<input type="checkbox" name="terms" required checked> Я разрешаю передать мои личные данные преподавателю.
+					</label>
+					<input type="submit" class="submit" value="Отправить"> 
+				</form>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

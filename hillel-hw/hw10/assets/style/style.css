@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flexing {
+    display: flex;
+}
+
+.content__wrapper {
+    max-width: 2130px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 380px 125px auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "head head head"
+                        "sub_logo . contacts"
+                        "letter_person . letter_text"
+                        ". sign sign"
+                        "foot foot foot";
+}
+
+.header {
+    grid-area: head;
+    padding-bottom: 40px;
+    border-bottom: 6px solid #d7d7d7;
+}
+
+.sub__logo {
+    grid-area: sub_logo;
+    padding: 62px 0 86px 0;
+}
+
+.address {
+    grid-area: contacts;
+    padding: 62px 0 86px 0;
+}
+
+.person__data {
+    grid-area: letter_person;
+    border-top: 6px solid #d7d7d7;
+}
+
+.main {
+    grid-area: letter_text;
+    border-top: 6px solid #d7d7d7;
+}
+
+.sign {
+    grid-area: sign;
+}
+
+.footer {
+    grid-area: foot;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+}
+
+.contacts {
+    align-items: center;
+    margin-top: 39px;
+}
+
+.company__title {
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700; 
+    z-index: 5;
+    width: 50%;
+    line-height: 1.3;
+    letter-spacing: 10px;
+    
+}
+
+.yellow_square {
+    width: 313px;
+    height: 172px;
+    background-color: #ffc600;
+    position: absolute;
+    margin-left: 152px;
+}
+
+.company__address {
+    font-style: normal;
+}
+
+.address__data {
+   font-weight: 300;
+   font-size: 1.8rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone__numbers {
+    flex-direction: column; 
+    width: 313px;
+    height: 172px;
+    background-color: #ffc600;
+    align-items: center;
+    margin-left: 45px;
+}
+
+ .address__wrapper {
+     padding: 20px 0;
+    
+} 
+
+.address__wrapper > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.fas {
+    font-size: 2.4rem;
+    padding-right: 20px;
+}
+
+.web__and__email {
+    padding-left: 45px;
+    flex-direction: column;
+}
+
+.person__data {
+    font-weight: 300;
+     width: 510px;
+    font-size: 1.6rem;
+    
+}
+
+.person__data__address {
+    flex-direction: column;
+    font-style: normal;
+    padding-top: 285px;
+}
+
+.letter__title {
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 95px;
+}
+
+.main__letter_text {
+    font-weight: 400;
+}
+
+.main__letter__text > p {
+    padding-bottom: 70px; 
+    font-weight: 300;
+    font-size: 1.6rem;
+      
+}
+
+.main__letter__text > span {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.sign {
+    width: 100%:
+}
+
+.personal__sign {
+    width: 100%;
+    padding-top: 103px;
+}
+
+.icon__footer {
+    padding-top: 575px;
+    padding-bottom: 38px;
+}
+
+.footer {
+    justify-content: center;
+    
+}

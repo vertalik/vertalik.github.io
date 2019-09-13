@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Helvetica';
+	src: url(../fonts/HelveticaRegular.ttf);
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Times New Roman';
+	src: url(../fonts/times new roman.ttf);
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: url(../fonts/NotoSans-Regular.ttf);
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+ }
+
+ ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #EEE; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #000; 
+  border-radius: 5px;
+}
+
+html {
+	font-size: 16px;
+	color: #fff;
+	background: linear-gradient(to right, #23074d, #cc5333);
+}
+
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+	color: rgb(27, 204, 154);
+}
+
+.sub__title {
+	font-family: 'Philosopher', sans-serif;
+	color: rgba(237, 114, 184, 0.54);
+}
+
+.ingredients__list {
+	font-family: 'Helvetica', 'Noto Sans', sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.5rem; 
+}
+
+.instruction__list {
+	font-family: 'Times New Roman' , 'PT Sans' , serif;
+	line-height: 1.375rem;
+}
+
+.description__pie {
+	color: #18E2E6FF;
+}
+

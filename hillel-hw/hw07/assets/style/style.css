@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	background: url(../img/oblako.png) 140px 50px / auto 200px repeat-x,
+		 url(../img/sun_PNG13449.png) right top / auto no-repeat,
+		 url(../img/trava.png) left bottom / auto 150px repeat-x,
+		 #f5fcff url(../img/olen.png) bottom center / auto 500px no-repeat;
+}
