@@ -1,0 +1,71 @@
+h1,
+h2 {
+    color: #7ab2c1;
+    margin: 0 0 10px;
+    font-family: 'Play', sans-serif;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+}
+
+p:nth-of-type(1) {
+    font-style: italic;
+    color: #999;
+}
+
+.hours {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hours li {
+    padding: 5px 10px;
+}
+
+.hours li:nth-child(odd) {
+    background-color: #c5c9cf;
+}
+
+.hours li:nth-child(4n + 1) {
+    background-color: #cfc5c9;
+}
+
+.hours li:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.store {
+    background: #7ab2c1;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 40px auto 0;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    position: relative;
+}
+
+.store:hover {
+    background-color: green;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.store:active {
+    background-color: orange;
+}
+
+.store .left {
+    height: 23px;
+    width: 54px;
+}
+
+.store .right {
+    height: 20px;
+    width: 41px;
+}
+
