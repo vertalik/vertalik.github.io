@@ -62,7 +62,7 @@ html {
 .menu__items li {
     display: inline-block;
     font-size: 1.2718rem;
-    padding-right: 34px;
+    padding-right: 20px;
     height: 55px;
 }
 
@@ -71,6 +71,8 @@ html {
     text-decoration: none;
     color: #6c6c6c;
     height: 100%;
+    width: 87px;
+    text-align: center;
 }
 
 .menu__items a:hover {
