@@ -14,6 +14,7 @@ html {
 
 .content__wrapper {
     max-width: 1024px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -51,6 +52,7 @@ html {
     display: inline-block;
     vertical-align: top;
     padding-left: 15px;
+    
 }
 
 .navigation {
@@ -87,12 +89,13 @@ html {
 .iphone {
     display: inline-block;
     padding-top: 38px;
+    width: 50%;
 }
 
 .banner__text {
     display: inline-block;
+    width: 50%;
     vertical-align: top;
-    padding-left: 150px;
     color: #fdfdfd;
     font-size: 1.6468rem;
 }
@@ -112,11 +115,10 @@ html {
     border: none;
     color: #fff;
     text-align: center;
-    margin-top: 41px;
+     margin-top: 41px;
     cursor: pointer;
-    width: 172px;
-    height: 41px;
-    border-radius: 2px;  
+    border-radius: 2px; 
+    padding: 10px; 
 }
 
 .sing__up__btn:hover {
@@ -124,12 +126,15 @@ html {
 }
 
 .sing__up__btn img {
-    padding: 8px 10px 0 0;
+    line-height: 23px;
+    vertical-align: middle;
+   
 }
 
 .btn__title {
     vertical-align: top;
-    padding-top: 8px;
+    line-height: 23px;
+    vertical-align: middle;
     display: inline-block;
 }
 
@@ -140,6 +145,7 @@ html {
 
 .cards {
     padding-top: 57px;
+    width: 100%;
 }
 
 .card__logo {
@@ -152,6 +158,12 @@ html {
     padding-top: 39px;
 }
 
+.card__wrapper {
+    width: 33.33%;
+    max-width: 341.33px ; 
+    display: inline-block;
+    text-align: center;
+}
 
 .cards p {
     color: #909090;
@@ -175,28 +187,15 @@ html {
     padding-top: 47px;
 }
 
-.pencil {
-    display: inline-block;
-    text-align: center;
-    font-size: 0.8968rem;
-    padding-right: 130px;
-}
-
-.lcd {
-    display: inline-block;
-    text-align: center;
-    font-size: 0.8968rem;
-    padding-right: 130px;
-}
-
+.pencil,
+.lcd,
 .basket {
-    display: inline-block;
-    text-align: center;
     font-size: 0.8968rem;
 }
 
 .product {
     padding-bottom: 70px;
+    padding-top: 96px;
 }
 
 .cart {
@@ -237,7 +236,3 @@ html {
     color: #909090;
     border-top: 1px solid #e5e5e5;
 }
-
-
-
-
