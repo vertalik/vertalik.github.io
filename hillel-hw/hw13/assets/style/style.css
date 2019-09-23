@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.wrapper__container {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+ .nav__list {
+    list-style: none;
+    cursor: pointer;
+} 
+
+.nav__list a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.nav__list__item {
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.nav__list__item:hover {
+    background-color: rgb(37, 206, 15);
+}
+
+.nav__list__item:hover .sub__menu {
+    display: block;
+    position: absolute;
+}
+
+ .sub__menu {
+    display: none;
+    background-color: #000;
+    top: 100%;
+    left: 0;
+    text-align: start;
+}
+
+.sub__menu li {
+    padding: 20px 40px;
+    width: 250px;
+    position: relative;
+}
+
+.sub__menu li:hover {
+    background-color: rgb(37, 206, 15);
+}
+
+.second__sub__menu {
+    background-color: #000;
+}
+
+.second__sub__menu {
+     display: none;
+} 
+
+nav li:hover > .second__sub__menu {
+    display: block; 
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.fas, 
+.fab,
+.far {
+    padding-right: 10px;
+}
+
+.icon__padding {
+    padding-left: 10px;
+}
