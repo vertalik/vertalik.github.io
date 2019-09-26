@@ -464,9 +464,11 @@ html {
 .heart__text {
   font-family: "WebdingsRegular";
   color: #e84545;
+  font-size: 0.875rem;
 }
 
 .third__part {
   font-family: "OpenSans-Regular", sans-serif;
   color: #fff;
+  font-size: 0.875rem;
 }
