@@ -5,113 +5,277 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>ActiveBox</title>
+    <link rel="stylesheet" href="./assets/style/cssreset.css">
     <link rel="stylesheet" href="./assets/style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="content">
-            <div class="wrapper__header">
-                <div class="logo"><img src="./assets/img/logo-intro.svg" alt="Hillel logo"></div>
-                <div class="main__title">
-                    <h1>Front End - Basic</h1>
-                    <span>Коломиец Виталий</span>
+        <div class="content__wrapper">
+            <div class="logo__header">
+                <div class="logo__img">
+                    <img src="./assets/img/logo.png" alt="ActiveBox company logo">
                 </div>
+                <div class="navigation">
+                    <nav>
+                        <ul class="navigation__items">
+                            <li class="menu__item"><a href="#features">Features</a></li>
+                            <li class="menu__item"><a href="#works">Works</a></li>
+                            <li class="menu__item"><a href="#team">Our team</a></li>
+                            <li class="menu__item"><a href="#clients">Testimonials</a></li>
+                            <li class="menu__item"><a href="#download">Download</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__text__content">
+                <div class="header__content__wrapper">
+                    <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1>
+                    <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo
+                        cursus magna
+                        vel scelerisque nisl consectetur et.</p>
+                    <a href="#" class="btn">Find Out More</a>
+
+                </div>
+
             </div>
         </div>
     </header>
-    <main class="main__content">
-        <div class="content">
-            <div class="home__work__title">
-                <h2>Home Work</h2>
+    <main>
+        <article id="features" class="features" aria-label="Company Features">
+            <div class="content__wrapper">
+                <div class="features__wrapper">
+                    <section class="card">
+                        <img src="./assets/img/card-pencil.png" alt="Pencil icon">
+                        <h3 class="card__title">Easily Customised</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                    <section class="card">
+                        <img src="./assets/img/card-lcd.png" alt="LCD icon">
+                        <h3 class="card__title">Responsive Ready</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                    <section class="card">
+                        <img src="./assets/img/card-bulb.png" alt="Bulb icon">
+                        <h3 class="card__title">Modern Design</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                    <section class="card">
+                        <img src="./assets/img/card-react.png" alt="React icon">
+                        <h3 class="card__title">Clean Code</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                    <section class="card">
+                        <img src="./assets/img/card-portfolio.png" alt="Portfolio icon">
+                        <h3 class="card__title">Ready to Ship</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                    <section class="card">
+                        <img src="./assets/img/card-download.png" alt="Pencil icon">
+                        <h3 class="card__title">Download for Free</h3>
+                        <p class="card__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis
+                            risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor</p>
+                    </section>
+                </div>
             </div>
-            <section class="home-work-list">
-                <a href="./hillel-hw/hw01/" class="home-work-item">
-                    <img src="./assets/img/sponge.JPG" alt="Sponge Bob" class="list__img">
-                    <span>Sponge Bob</span>
-                    <span class="number">01</span>
-                </a>
-                <a href="./hillel-hw/hw02/" class="home-work-item">
-                    <img src="./assets/img/pretenders.JPG" alt="Pretenders" class="list__img">
-                    <span>Pretenders</span>
-                    <span class="number">02</span>
-                </a>
-                <a href="./hillel-hw/hw03/" class="home-work-item">
-                    <img src="./assets/img/cars.JPG" alt="Cars" class="list__img">
-                    <span>Cars</span>
-                    <span class="number">03</span>
-                </a>
-                <a href="./hillel-hw/hw04/" class="home-work-item">
-                    <img src="./assets/img/bio.JPG" alt="BIO" class="list__img">
-                    <span>BIO</span>
-                    <span class="number">04</span>
-                </a>
-                <a href="./hillel-hw/hw05/" class="home-work-item">
-                    <img src="./assets/img/mondrian.JPG" alt="Mondrian" class="list__img">
-                    <span>Mondrian</span>
-                    <span class="number">05</span>
-                </a>
-                <a href="./hillel-hw/hw06/" class="home-work-item">
-                    <img src="./assets/img/form.JPG" alt="Form" class="list__img">
-                    <span>Form</span>
-                    <span class="number">06</span>
-                </a>
-                <a href="./hillel-hw/hw07/" class="home-work-item">
-                    <img src="./assets/img/bg-mul.JPG" alt="Background" class="list__img">
-                    <span>Background</span>
-                    <span class="number">07</span>
-                </a>
-                <a href="./hillel-hw/hw08/zebra.html" class="home-work-item">
-                    <img src="./assets/img/fonts-gradient.JPG" alt="Fonts - Gradient" class="list__img">
-                    <span>Fonts / Gradient</span>
-                    <span class="number">08</span>
-                </a>
-                <a href="./hillel-hw/hw09/" class="home-work-item">
-                    <img src="./assets/img/card.JPG" alt="Card" class="list__img">
-                    <span>Card</span>
-                    <span class="number">09</span>
-                </a>
-                <a href="./hillel-hw/hw10/" class="home-work-item">
-                    <img src="./assets/img/cover-letter.JPG" alt="Cover letter" class="list__img">
-                    <span>Cover Letter</span>
-                    <span class="number">10</span>
-                </a>
-                <a href="./hillel-hw/hw11/" class="home-work-item">
-                    <img src="./assets/img/prechu.JPG" alt="Prechu" class="list__img">
-                    <span>Prechu</span>
-                    <span class="number">11</span>
-                </a>
-                <a href="./hillel-hw/hw12/" class="home-work-item">
-                    <img src="./assets/img/bukovel.JPG" alt="Bukovel" class="list__img">
-                    <span>Bukovel</span>
-                    <span class="number">12</span>
-                </a>
-                <a href="./hillel-hw/hw13/" class="home-work-item">
-                    <img src="./assets/img/menu.JPG" alt="Menu" class="list__img">
-                    <span>Menu</span>
-                    <span class="number">13</span>
-                </a>
-                <a href="./hillel-hw/hw14/" class="home-work-item">
-                    <img src="./assets/img/activebox.JPG" alt="ActiveBox" class="list__img">
-                    <span>ActiveBox</span>
-                    <span class="number">14</span>
-                </a>
-                <!-- <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a> -->
-
-            </section>
-        </div>
+        </article>
+        <section id="works" class="works" aria-label="Our works">
+            <div class="works__wrapper">
+                <div class="work__photo">
+                    <img src="./assets/img/img1.jpg" alt="First our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img2.jpg" alt="Second our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img3.jpg" alt="Third our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img4.jpg" alt="Fourth our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img5.jpg" alt="Five our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img6.jpg" alt="Sixth our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img7.jpg" alt="Seventh our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+                <div class="work__photo">
+                    <img src="./assets/img/img8.jpg" alt="Eighth our work">
+                    <div class="caption">
+                        <h4 class="caption__title">Project Name</h4>
+                        <p class="caption__text">User Interface Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team" aria-label="Our team">
+            <div class="content__wrapper">
+                <div class="our__team">
+                    <article class="card__gender">
+                        <img src="./assets/img/card-people1.jpg" alt="Ruth Woods photo">
+                        <h4 class="gender__name">Ruth Woods</h4>
+                        <span>Founder, CEO</span>
+                        <p class="gender__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit
+                            amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="social__media__wrapper">
+                            <a href="#" class="social__media"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </article>
+                    <article class="card__gender">
+                        <img src="./assets/img/card-people2.jpg" alt="Timothy Reed photo">
+                        <h4 class="gender__name">Timothy Reed</h4>
+                        <span>Co-Founder, Developer</span>
+                        <p class="gender__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit
+                            amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="social__media__wrapper">
+                            <a href="#" class="social__media"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </article>
+                    <article class="card__gender">
+                        <img src="./assets/img/card-people3.jpg" alt="Victoria Valdez photo">
+                        <h4 class="gender__name">Victoria Valdez</h4>
+                        <span>UI Designer</span>
+                        <p class="gender__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit
+                            amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="social__media__wrapper">
+                            <a href="#" class="social__media"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </article>
+                    <article class="card__gender">
+                        <img src="./assets/img/card-people4.jpg" alt="Beverly Little photo">
+                        <h4 class="gender__name">Beverly Little</h4>
+                        <span>Data Scientist</span>
+                        <p class="gender__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit
+                            amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <div class="social__media__wrapper">
+                            <a href="#" class="social__media"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social__media"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section  id="clients" class="clients" aria-label="Coments our clients">
+            <div class="clients__wrapper">
+                <div class="clients__photo">
+                    <img src="./assets/img/slider.jpg" alt="Our clients photo">
+                </div>
+                <div class="comment">
+                    <div class="comments__content">
+                        <p class="clients__comment">
+                            “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
+                            Aenean eu leo quam...”
+                        </p>
+                        <span class="client__name">Susan Sims, Interaction Designer at XYZ</span>
+                        <div class="slider__pages">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="download" class="download" aria-label="Download">
+            <div class="content__wrapper">
+                <div class="download__wrapper">
+                    <h2 class="download__title">Are You Ready to Start? Download Now For Free!</h2>
+                    <p class="download__text">Fusce dapibus, tellus ac cursus commodo</p>
+                    <button class="btn download__btn" onclick="window.open('./assets/download/flexbox-froggy-hw.JPG')">Download Here</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="content__wrapper">
+            <div class="footer__wrapper">
+                <article class="location">
+                    <h4 class="location__title">Location</h4>
+                    <p>
+                        3481 Melrose Place <br>
+                        Beverly Hills, CA 90210
+                    </p>
+                </article>
+                <div class="social__media__wrapper footer__media">
+                    <h4 class="social__media__title location__title">Share with Love</h4>
+                    <div class="icon__wrapper">
+                        <a href="#" class="social__media footer__icon__media"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social__media footer__icon__media"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social__media footer__icon__media"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+                <article class="about">
+                    <h4 class="about__title location__title">About ActiveBox</h4>
+                    <p class="about__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+                        ullamcorper nulla non metus auctor fringilla.</p>
+                </article>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="content__wrapper">
+                <div class="copyright__text">
+                    <div class="copyright__text__content">
+                        <span class="first__part">Copyright © 2015 ActiveBox. All Rights Reserved <br> Made with</span>
+                        <span class="heart__text">Y</span>
+                        <span class="third__part">by Kamal Chaneman</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
