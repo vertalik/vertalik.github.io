@@ -272,7 +272,6 @@ html {
 }
 
 .gender__text {
-  /* width: 92%; */
   font-size: 0.875rem;
   padding-top: 30px;
   line-height: 1.5;
@@ -346,7 +345,9 @@ html {
 }
 
 .download {
-  padding-top: 100px;
+  height: 339px;
+  display: flex;
+  align-items: center;
 }
 
 .download__wrapper {
@@ -367,7 +368,7 @@ html {
 
 .download__btn {
   padding: 20px 83px;
-  margin: 40px 0 100px 0;
+  margin: 40px 0 0 0;
 }
 
 .footer {

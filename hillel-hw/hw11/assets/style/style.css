@@ -124,6 +124,7 @@ html {
     cursor: pointer;
     border-radius: 2px; 
     padding: 10px 20px; 
+    line-height: 1;
 }
 
 .sing__up__btn:hover {
@@ -138,7 +139,7 @@ html {
 
 .btn__title {
     vertical-align: top;
-    line-height: 23px;
+    line-height: 1;
     vertical-align: middle;
     display: inline-block;
 }
