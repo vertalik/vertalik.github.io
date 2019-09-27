@@ -293,7 +293,7 @@ html {
 
 .comment {
   background-color: #53354a;
-  width: 50vw;
+  width: 50%;
 }
 
 .comments__content {
@@ -307,7 +307,7 @@ html {
 }
 
 .clients__photo {
-  width: 50vw;
+  width: 50%;
 }
 
 .clients__photo img {
