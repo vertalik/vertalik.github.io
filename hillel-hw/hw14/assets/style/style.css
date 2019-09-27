@@ -178,8 +178,14 @@ html {
 .work__photo {
   width: 468px;
   height: 349px;
-  margin: 1px;
   position: relative;
+  flex-basis: 25%;
+  border-bottom: 1.5px solid #fff;
+  border-right: 1.5px solid #fff;
+}
+
+.work__photo:nth-child(4n+4) {
+  border-right: none;
 }
 
 .caption {
@@ -216,8 +222,9 @@ html {
 }
 
 .work__photo img {
-  width: 468px;
-  height: 349px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .our__team {
@@ -281,25 +288,32 @@ html {
 .clients__wrapper {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .comment {
   background-color: #53354a;
+  width: 50vw;
 }
 
 .comments__content {
-  max-width: 63%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 100%;
+  width: 85%;
   color: #fff;
   padding-left: 85px;
 }
 
+.clients__photo {
+  width: 50vw;
+}
+
 .clients__photo img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .clients {
@@ -322,9 +336,9 @@ html {
 .slider__pages {
   padding-top: 64px;
   display: flex;
-  width: 57%;
+  width: 40%; 
   justify-content: flex-end;
-  align-items: center;
+
 }
 
 .circle {
