@@ -527,7 +527,6 @@ html {
   left: 0;
 }
 
-.nav__trigger + label,
 .aside__mobile__menu {
   transition: left 0.2s;
 }
