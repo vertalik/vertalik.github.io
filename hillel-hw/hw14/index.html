@@ -29,7 +29,12 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="mobile__menu__btn">
+                    <button type="button" onclick="document.getElementById('aside__menu').classList.toggle('open')"
+                        class="aside__btn"><img src="./assets/img/menu-icon.svg" alt=""></button>
+                </div>
             </div>
+
             <div class="header__text__content">
                 <div class="header__content__wrapper">
                     <h1 class="header__title">Your Favorite One Page Multi Purpose Template</h1>
@@ -39,6 +44,28 @@
                     <a href="#" class="btn">Find Out More</a>
 
                 </div>
+                <div class="aside__mobile__menu" id="aside__menu">
+                    <div class="mobile__menu__wrapper">
+                        <nav>
+                            <ul class="navigation__items nav__mobile">
+                                <li class="menu__item menu__mobile__item"><a href="#features">Features</a></li>
+                                <li class="menu__item menu__mobile__item"><a href="#works">Works</a></li>
+                                <li class="menu__item menu__mobile__item"><a href="#team">Our team</a></li>
+                                <li class="menu__item menu__mobile__item"><a href="#clients">Testimonials</a></li>
+                                <li class="menu__item menu__mobile__item"><a href="#download">Download</a></li>
+                            </ul>
+                        </nav>
+                        <div class="mobile__menu__btn__close">
+                            <button type="button"
+                                onclick="document.getElementById('aside__menu').classList.remove('open')"
+                                class="aside__btn__close"><img src="./assets/img/close-icon.svg" alt=""></button>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
 
             </div>
         </div>
@@ -204,7 +231,7 @@
                 </div>
             </div>
         </section>
-        <section  id="clients" class="clients" aria-label="Coments our clients">
+        <section id="clients" class="clients" aria-label="Coments our clients">
             <div class="clients__wrapper">
                 <div class="clients__photo">
                     <img src="./assets/img/slider.jpg" alt="Our clients photo">
@@ -232,7 +259,8 @@
                 <div class="download__wrapper">
                     <h2 class="download__title">Are You Ready to Start? Download Now For Free!</h2>
                     <p class="download__text">Fusce dapibus, tellus ac cursus commodo</p>
-                    <button class="btn download__btn" onclick="window.open('./assets/download/flexbox-froggy-hw.JPG')">Download Here</button>
+                    <button class="btn download__btn"
+                        onclick="window.open('./assets/download/flexbox-froggy-hw.JPG')">Download Here</button>
                 </div>
             </div>
         </section>
