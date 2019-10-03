@@ -64,15 +64,16 @@ html {
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  border-bottom: 1px solid #505369;
 }
 
 .navigation {
-  width: 50%;
+  width: 100%;
 }
 
 .navigation__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   color: #cbccd3;
 }
 
@@ -84,6 +85,15 @@ html {
   font-size: 1.0625rem;
   transition: color ease 0.5s;
 }
+
+.menu__item {
+  padding-right: 60px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
 
 .menu__item a:hover {
   color: #e84545;
@@ -912,10 +922,6 @@ html {
 
   .work__photo {
     flex-basis: 50%;
-  }
-
-  .navigation {
-    width: 60%;
   }
 
   .features__wrapper {
