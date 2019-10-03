@@ -38,7 +38,7 @@ h3 {
   background: #d9eeec;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform 0.7s;
+  transition: all 0.7s;
   cursor: pointer;
 }
 
