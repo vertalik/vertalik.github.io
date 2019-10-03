@@ -52,10 +52,12 @@ html {
   max-width: 1170px;
   margin: 0 auto;
   width: 100%;
+  height: 100%;
 }
 
 .header {
   background: url(../img/bg.jpg) no-repeat center top / cover;
+  max-height: 750px;
   height: 100vh;
 }
 
@@ -63,7 +65,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
+  height: 100px;
   border-bottom: 1px solid #505369;
 }
 
@@ -112,8 +114,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  /* position: relative; */
+  height: calc(100% - 100px);
 }
 
 .header__title {
@@ -546,7 +547,7 @@ html {
 
 .mobile__menu__wrapper {
   background-color: #fff;
-  height: 90vh;
+  height: 60vh;
   display: flex;
   justify-content: space-between;
   width: 288px;
