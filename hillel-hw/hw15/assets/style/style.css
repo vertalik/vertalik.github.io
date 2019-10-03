@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(173, 152, 152);
+  font-family: "Roboto", sans-serif;
+}
+
+.content__wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 20px 0;
+  text-align: left;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.square__wrapper,
+.flip__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: #d9eeec;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 0.7s;
+  cursor: pointer;
+}
+
+.square:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.flip__card {
+  width: 240px;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.flip__card__content {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flip__card:hover .flip__card__content {
+  transform: rotateY(180deg);
+}
+
+.flip__card__section {
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.front {
+  background: #fafafa;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back {
+  transform: rotateY(180deg);
+  background: linear-gradient(267.83deg, #7e59ea 6.28%, #55acdd 95.13%);
+}
+
+.hello {
+  width: 100%;
+  height: 260px;
+  background-color: #bbeaa6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.letter__wrapper {
+  perspective: 1000px;
+}
+
+.letter__square {
+  width: 200px;
+  height: 200px;
+  background-color: #e3c878;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: 0% 0%;
+  transform-style: preserve-3d;
+}
+
+.one {
+  animation: animate 0.7s 0.1s;
+}
+
+.two {
+  animation: animate 1s 0.1s;
+}
+
+.three {
+  animation: animate 1.3s 0.1s;
+}
+
+.four {
+  animation: animate 1.6s 0.1s;
+}
+
+.five {
+  animation: animate 1.9s 0.1s;
+}
+
+.letter {
+  font-size: 100px;
+  color: #ed9a73;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(-96deg);
+  }
+  20% {
+    transform: rotateX(-96deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
