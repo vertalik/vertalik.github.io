@@ -82,6 +82,7 @@ html {
   font-family: "Raleway-Bold", sans-serif;
   text-transform: uppercase;
   font-size: 1.0625rem;
+  transition: color ease 0.5s;
 }
 
 .menu__item a:hover {
@@ -132,6 +133,7 @@ html {
   padding: 20px 50px;
   border-radius: 2px;
   cursor: pointer;
+  transition: background-color ease 0.5s;
 }
 
 .btn:hover {
@@ -194,7 +196,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
   color: #fff;
   position: absolute;
   top: 0;
@@ -203,9 +204,10 @@ html {
   line-height: 1.6;
   background-color: #e84545;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0;
   height: 100%;
   cursor: pointer;
+  transition: opacity ease 0.2s;
 }
 
 .caption__title {
@@ -219,7 +221,7 @@ html {
 }
 
 .work__photo:hover > .caption {
-  visibility: visible;
+  opacity: 0.9;
 }
 
 .work__photo img {
@@ -268,6 +270,7 @@ html {
   line-height: 40px;
   margin-right: 4px;
   cursor: pointer;
+  transition: all ease 0.2s;
 }
 
 .social__media:hover {
@@ -348,18 +351,18 @@ html {
   border-radius: 50%;
   margin-right: 4px;
   cursor: pointer;
+  transition: background-color ease 0.2s;
+}
+
+.circle:hover {
+  background-color: #fff;
 }
 
 .circle:last-child {
   margin-right: 0px;
 }
 
-.circle:nth-child(2) {
-  background-color: #fff;
-}
-
 .download {
-  /* height: 339px; */
   display: flex;
   align-items: center;
 }
