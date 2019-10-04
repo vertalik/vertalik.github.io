@@ -917,6 +917,10 @@ html {
     display: none;
   }
 
+  .menu__item {
+    padding-right: 30px;
+  }
+
   .logo__header {
     padding: 0px 20px;
   }
