@@ -514,7 +514,7 @@ html {
 .aside__mobile__menu {
   position: absolute;
   left: -288px;
-  top: 10vh;
+  top: 100px;
 }
 
 .aside__btn {
@@ -547,7 +547,7 @@ html {
 
 .mobile__menu__wrapper {
   background-color: #fff;
-  height: 65vh;
+  height: calc(100vh - 100px);
   display: flex;
   justify-content: space-between;
   width: 288px;
