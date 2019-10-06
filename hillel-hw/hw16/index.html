@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG - LOGO</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="content__wrapper">
+            <div class="company__logo">
+                <svg class="svg__main" viewBox="0 0 600 600">
+                    <rect x="10" y="10" class="bg" />
+                    <rect id="line-bottom" x="100" y="500" class="line bottom" />
+                    <rect id="line-top" x="100" y="80" class="line top" />
+                    <circle id="logo-circle" class="circle" cx="300.5" cy="300.5" r="147.5" />
+                    <text id="logo-text" x="214.3105" y="322.459" class="logo__text">LOGO</text>
+                    <use xlink:href="#line-top" />
+                    <use xlink:href="#line-bottom" />
+                </svg>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
