@@ -59,22 +59,23 @@
   }
 
   .line {
-    width: 185.49px;
+    width: calc(100% - 322px);
     height: 2.97px;
   }
 
   .top {
-    transform: translateX(108.34px) translateY(186px);
+    transform: translateX(61px) translateY(186px);
     
   }
 
   .bottom {
-    transform: translateX(108.34px) translateY(-168px);
+    transform: translateX(61px) translateY(-168px);
   }
 
   .circle {
     stroke-width: 10px;
     stroke: #8a72ca;
+
   }
   
 }
