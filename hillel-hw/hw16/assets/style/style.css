@@ -53,7 +53,7 @@
   fill: #ffffff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
   .bg {
     display: none;
   }
