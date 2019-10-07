@@ -64,15 +64,17 @@
   }
 
   .top {
-    transform: translateX(110.34px) translateY(186px);
+    transform: translateX(108.34px) translateY(186px);
+    
   }
 
   .bottom {
-    transform: translateX(110.34px) translateY(-168px);
+    transform: translateX(108.34px) translateY(-168px);
   }
 
   .circle {
     stroke-width: 10px;
     stroke: #8a72ca;
   }
+  
 }
