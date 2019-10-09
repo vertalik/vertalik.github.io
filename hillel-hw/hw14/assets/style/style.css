@@ -548,6 +548,7 @@ html {
 .mobile__menu__wrapper {
   background-color: #fff;
   height: calc(100vh - 100px);
+  max-height: 650px;
   display: flex;
   justify-content: space-between;
   width: 288px;
