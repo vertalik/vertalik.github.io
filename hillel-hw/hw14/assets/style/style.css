@@ -695,6 +695,7 @@ html {
   .footer__wrapper {
     flex-direction: column;
     align-items: center;
+    padding: 38px 0;
   }
 
   .social__media__title {
