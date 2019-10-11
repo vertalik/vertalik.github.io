@@ -1,0 +1,15 @@
+@mixin h2TitleMax {
+	font-size: 32px;
+	color: $fontColorDark;
+	font-weight: 700;
+}
+
+@mixin h2Title {
+	font-size: 20px;
+	color: $fontColorMedium;
+}
+
+@mixin pTitle {
+	color: $fontColorLight;
+	font-size: 16px;
+}
