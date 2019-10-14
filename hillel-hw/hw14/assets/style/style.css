@@ -396,7 +396,7 @@ html {
 }
 
 .download__btn {
-  padding: 20px 83px;
+  padding: 20px 70px;
   margin: 40px 0 0 0;
 }
 
@@ -611,6 +611,7 @@ html {
 
   .btn {
     width: 100%;
+    font-size: 1rem;
   }
 
   .features__wrapper {
@@ -621,6 +622,14 @@ html {
   .card {
     width: 100%;
     padding: 0 20px 40px 20px;
+  }
+
+  .card__title {
+    font-size: 1.125rem;
+  }
+
+  .card__text {
+    font-size: 1rem;
   }
 
   .card__gender img {
