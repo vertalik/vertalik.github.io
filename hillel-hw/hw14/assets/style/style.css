@@ -737,7 +737,7 @@ html {
   }
 }
 
-@media screen and (min-width: 427px) and (max-width: 769px) {
+@media screen and (min-width: 427px) and (max-width: 960px) {
   .mobile__menu__btn {
     display: block;
   }
@@ -859,79 +859,9 @@ html {
   }
 
   .first__part,
-  .header__text,
+  .heart__text,
   .third__part {
     font-size: 0.8rem;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 960px) {
-  .mobile__menu__btn {
-    display: none;
-  }
-
-  .logo__header {
-    padding: 0px 20px;
-  }
-
-  .header__title {
-    font-size: 2.5rem;
-  }
-
-  .header__text {
-    font-size: 1rem;
-  }
-
-  .work__photo {
-    flex-basis: 50%;
-  }
-
-  .navigation {
-    width: 70%;
-  }
-
-  .features__wrapper {
-    padding-top: 0;
-  }
-
-  .works__wrapper {
-    padding-top: 0;
-  }
-
-  .our__team {
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 38px;
-  }
-
-  .clients {
-    padding-top: 0;
-  }
-
-  .card__gender {
-    width: 50%;
-    margin-bottom: 38px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .card__gender img {
-    width: 100%;
-  }
-
-  .clients__comment {
-    font-size: 1.5rem;
-    padding-top: 45px;
-  }
-
-  .slider__pages {
-    padding: 40px 0 40px 0;
-  }
-
-  .location,
-  .social__media__wrapper,
-  .about {
-    width: 25%;
   }
 }
 
