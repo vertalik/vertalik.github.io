@@ -1,0 +1,11 @@
+@mixin flex_jc-center_ai-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+@mixin flex_jc-spb_ai-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}

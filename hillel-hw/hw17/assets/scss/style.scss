@@ -1,0 +1,23 @@
+@import "fonts";
+@import "var";
+@import "header";
+@import "mixins";
+@import "extends";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: $def-font-size;
+    font-family: "Raleway-Regular", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .content__wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+
