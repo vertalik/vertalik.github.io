@@ -852,8 +852,11 @@ html {
     font-size: 1rem;
   }
 
+  .footer__media {
+    width: 25%;
+  }
+
   .location,
-  .social__media__wrapper,
   .about {
     width: 25%;
   }
@@ -920,8 +923,11 @@ html {
     padding: 40px 0 40px 0;
   }
 
+  .footer__media {
+    width: 25%;
+  }
+
   .location,
-  .social__media__wrapper,
   .about {
     width: 25%;
   }

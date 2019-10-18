@@ -830,16 +830,10 @@ html {
   line-height: 1.7;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 1100px) {
   .social__media__wrapper {
     width: 90%;
     margin-bottom: 57px;
-  }
-}
-
-@media screen and (min-width: 427px) and (max-width: 1100px) {
-  .social__media__wrapper {
-    width: 25%;
   }
 }
 
@@ -875,6 +869,12 @@ html {
 @media screen and (max-width: 426px) {
   .footer__media {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 1100px) {
+  .footer__media {
+    width: 25%;
   }
 }
 
