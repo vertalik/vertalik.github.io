@@ -1,0 +1,82 @@
+@import "mixins";
+
+.clients__wrapper {
+     @include flex_jc-center;
+     width: 100%;
+     @media screen and (max-width: 960px) {
+          flex-direction: column;
+     }
+}
+
+.clients {
+     padding-top: 100px;
+     @media screen and (max-width: 1100px) {
+          padding-top: 0;
+     }
+}
+
+.clients__photo {
+     width: 50%;
+     background-color: $vinous-color;
+     @media screen and (max-width: 960px) {
+          width: 100%;
+     }
+     img {
+          @include w-h(100%, 100%);
+          object-fit: cover;
+     }
+}
+
+.comment {
+     @extend .clients__photo;
+     @media screen and (max-width: 960px) {
+          width: 100%;
+     }
+     .comments__content {
+          @include flex_jc-center;
+          flex-direction: column;
+          @include w-h(85%, 100%);
+          color: $white-color;
+          padding-left: 85px;
+          @media screen and (max-width: 960px) {
+               width: 100%;
+               padding-left: 20px;
+               padding-right: 20px;
+               align-items: center;
+          }
+          .clients__comment {
+               @include font-style__font-size("Cardo", $clients-coment-size);
+               line-height: 1.2;
+               padding-bottom: 37px;
+               @media screen and (max-width: 1100px) {
+                    font-size: $m_coment-text;
+                    padding-top: 45px;
+               }
+          }
+          .client__name {
+               @include font-style__font-size("Raleway-Bold", $clients-name-text);
+               text-transform: uppercase;
+          }
+          .slider__pages {
+               padding-top: 64px;
+               @include flex_jc-center;
+               @media screen and (max-width: 1100px) {
+                    padding: 40px 0 40px 0;
+               }
+               .circle {
+                    background-color: $vinous-light-color;
+                    @include w-h(12px, 12px);
+                    border-radius: 50%;
+                    margin-right: 4px;
+                    cursor: pointer;
+                    transition: background-color ease 0.2s;
+                    &:hover {
+                         background-color: $white-color;
+                    }
+                    &:last-child {
+                         margin-right: 0px;
+                    }
+               }
+          }
+     }
+}

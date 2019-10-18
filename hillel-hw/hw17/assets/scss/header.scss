@@ -1,49 +1,111 @@
 @import "mixins";
 
 .header {
-  background: url(../img/bg.jpg) no-repeat center top / cover;
-  max-height: 750px;
-  height: 100vh;
+     background: url(../img/bg.jpg) no-repeat center top / cover;
+     max-height: 750px;
+     height: 100vh;
 }
 
 .logo__header {
-  @include flex_jc-spb_ai-center;
-  height: 100px;
-  border-bottom: 1px solid $border-color;
+     @include flex_jc-spb_ai-center;
+     @include header-height-change(false);
+     @media screen and (max-width: 960px) {
+          @include header-height-change(true);
+          flex-direction: row-reverse;
+          justify-content: space-around;
+     }
+     @media screen and (min-width: 960px) and (max-width: 1100px) {
+          padding: 0px 20px;
+     }
+     border-bottom: 1px solid $border-color;
 }
 
 .navigation {
-  width: 100%;
-  .navigation__items {
-    @include flex_jc-spb_ai-center;
-    justify-content: flex-end;
-    .menu__item {
-      padding-left: 60px;
-      a {
-        color: $nav-color;
-        text-decoration: none;
-        font-family: "Raleway-Bold", sans-serif;
-        text-transform: uppercase;
-        font-size: $nav-font-size;
-        transition: color ease 0.5s;
-        &:hover {
-          color: $nav-hover-color;
-        }
-      }
-    }
-  }
+     width: 100%;
+     @media screen and (max-width: 960px) {
+          width: auto;
+     }
+     .navigation__items {
+          @include flex_jc-spb_ai-center;
+          justify-content: flex-end;
+          .menu__item {
+               padding-left: 60px;
+               @media screen and (min-width: 960px) and (max-width: 1100px) {
+                    padding-left: 30px;
+               }
+               a {
+                    color: $silver-color;
+                    text-decoration: none;
+                    @include font-style__font-size("Raleway-Bold", $nav-font-size);
+                    text-transform: uppercase;
+                    transition: color ease 0.5s;
+                    &:hover {
+                         color: $red-color;
+                    }
+               }
+          }
+     }
+     nav {
+          @media screen and (max-width: 960px) {
+               display: none;
+          }
+     }
 }
 
-.mobile__menu__btn {
-  display: none;
+.header__text__content {
+     @include flex_jc-center_ai-center;
+     @include header-content-change(false);
+     @media screen and (max-width: 960px) {
+          @include header-content-change(true);
+     }
 }
 
 .header__content__wrapper {
-  // flex-direction: column;
-  text-align: center;
-  // width: 80%;
+     @include flex_jc-center_ai-center;
+     flex-direction: column;
+     text-align: center;
+     width: 80%;
+     .header__title {
+          @include font-style__font-size("OpenSans-Bold", $header-title);
+          line-height: 1.1;
+          text-transform: uppercase;
+          color: $white-color;
+          @media screen and (max-width: 426px) {
+               font-size: $m_header-title;
+          }
+          @media screen and (min-width: 427px) and (max-width: 960px) {
+               font-size: $md_header-title;
+          }
+     }
+     .header__text {
+          @include font-style__font-size("Raleway-Regular", $header-text);
+          line-height: 1.6;
+          color: $allmost-white-color;
+          margin: 43px 0 83px 0;
+          @media screen and (max-width: 426px) {
+               font-size: $m_header-text;
+          }
+          @media screen and (min-width: 427px) and (max-width: 960px) {
+               font-size: $md_header-text;
+          }
+     }
 }
 
-.aside__mobile__menu {
-  display: none;
+.btn {
+     border: none;
+     @include text-decor-none-uper;
+     @include font-style__font-size("Raleway-SemiBold", $btn-text-size);
+     background-color: $red-color;
+     color: $white-color;
+     padding: 20px 50px;
+     border-radius: 2px;
+     cursor: pointer;
+     transition: background-color ease 0.5s;
+     &:hover {
+          background-color: $hover-btn-color;
+     }
+     @media screen and (max-width: 426px) {
+          width: 100%;
+          font-size: $m_def-text;
+     }
 }
