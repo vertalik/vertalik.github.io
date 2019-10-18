@@ -595,7 +595,6 @@ html {
   }
 
   .logo__header {
-    border-bottom: 1px solid #838594;
     flex-direction: row-reverse;
     justify-content: space-around;
     height: 72px;
@@ -699,6 +698,7 @@ html {
 
   .download__btn {
     width: 100%;
+    padding: 20px 0;
   }
 
   .download__wrapper {
