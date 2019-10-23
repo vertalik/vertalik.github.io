@@ -1,0 +1,128 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+}
+
+.content__wrappper {
+     max-width: 1600px;
+     margin: 0 auto;
+}
+
+.master-grid__wrapper {
+     display: grid;
+     grid-template-columns: 1fr max-content;
+     grid-gap: 12px;
+     background: rgba(255, 255, 255, 0.7);
+}
+
+img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     cursor: pointer;
+}
+
+.gallery-photo__wrapper {
+     display: grid;
+     grid-template-columns: minmax(242px, 1fr) 216px minmax(242px, 1fr);
+     grid-template-rows: repeat(3, 280px);
+     grid-gap: 12px;
+     padding: 12px 0 12px 12px;
+}
+
+.photo__item:nth-child(2) {
+     grid-row: span 2;
+}
+
+.photo__item:nth-child(6) {
+     grid-column: span 2;
+}
+
+.card-content__wrapper {
+     display: grid;
+     grid-template-columns: repeat(5, minmax(86px, 1fr));
+     grid-template-rows: repeat(10, minmax(86px, 1fr));
+     border: 1px solid #99afb7;
+}
+
+.sell {
+     border: 1.2px solid #99afb7;
+     background-color: #fff;
+}
+
+.sell:nth-child(7) {
+     grid-column: span 3;
+     grid-row: span 2;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.sell:nth-child(17) {
+     grid-column: span 3;
+     grid-row: span 4;
+}
+
+.main-title__text {
+     font-size: 2.25rem;
+     letter-spacing: 0.125em;
+     font-weight: 400;
+}
+
+.main-title__company {
+     font-size: 0.62rem;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.company-text__wrapper {
+     display: flex;
+     width: 70%;
+     justify-content: flex-end;
+}
+
+.card-main__content {
+     max-width: 264px;
+     height: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+}
+
+.card-title__text {
+     font-size: 1.5rem;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.card-article__text {
+     width: 80%;
+     line-height: 1.25;
+}
+
+.card-article__last-text {
+     margin-top: -20px;
+}
+
+.card__footer {
+     text-align: start;
+     width: 80%;
+}
+
+.card-footer__text {
+     font-weight: 600;
+}
+
+.fab {
+     font-size: 1.37rem;
+     margin-left: 10px;
+     cursor: pointer;
+}
