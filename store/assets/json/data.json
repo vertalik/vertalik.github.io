@@ -1,0 +1,1566 @@
+{
+  "phones": [{
+      "id": "1",
+      "date": "23.04.2020",
+      "img": "https://i.citrus.ua/uploads/shop/d/b/dbbe192ade5b9b538760fc9341887729.jpg",
+      "name": "Samsung Galaxy S20 Ultra",
+      "price": "1350",
+      "description": "Meet Galaxy S20 Ultra with intelligent battery, powerful processor and massive storage.",
+      "specs": {
+        "displaySize": "6.9\"",
+        "displayType": "AMOLED",
+        "displayResolution": "1440 x 3200",
+        "cpu": "Exynos 990",
+        "storage": "128 GB",
+        "ram": "12 GB"
+      },
+      "quantity": "0",
+      "reviews": [{
+          "userId": "1",
+          "date": "12.04.2020",
+          "userName": "Jessica Alba",
+          "textReview": "Everything I want is here!",
+          "productRating": "5"
+        },
+        {
+          "userId": "2",
+          "date": "14.04.2020",
+          "userName": "Nick Bluncket",
+          "textReview": "I like It. Super qulaity and only advantages. No regrets.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "date": "22.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/8/c/8c5aa41724de59fd7f1262ab4dbd8eab.jpg",
+      "name": "Apple iPhone 7",
+      "price": "400",
+      "description": "iPhone 7 and iPhone 7 Plus have been tested in accordance with IEC 60529 standarts.",
+      "specs": {
+        "displaySize": "4.7\"",
+        "displayType": "IPS",
+        "displayResolution": "1334 x 750",
+        "cpu": "Apple A10",
+        "storage": "32 GB",
+        "ram": "2 GB"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "3",
+          "date": "11.03.2020",
+          "userName": "Flin Summersad",
+          "textReview": "Very good for me. Use it in my travellings and at work. But only 1 SIM-card can be used. ",
+          "productRating": "4"
+        },
+        {
+          "userId": "4",
+          "date": "28.03.2020",
+          "userName": "Sara Cond",
+          "textReview": "Excellent phone.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "date": "28.01.2020",
+      "img": "https://i2.rozetka.ua/goods/16389315/samsung_galaxy_s10_lite_6_128_gb_black_sm_g770fzkgsek_images_16389315167.jpg",
+      "name": "Samsung Galaxy S10 Lite",
+      "price": "570",
+      "description": "The unlimited 6.7-inch Super AMOLED Plus screen and high output ensure great results in use.",
+      "specs": {
+        "displaySize": "6.7\"",
+        "displayType": "Super AMOLED Plus",
+        "displayResolution": "2400 х 1080",
+        "cpu": "Qualcomm Snapdragon 855",
+        "storage": "128 GB",
+        "ram": "6 GB"
+      },
+      "quantity": "10",
+      "reviews": [{
+          "userId": "5",
+          "date": "02.02.2020",
+          "userName": "Jin Alva",
+          "textReview": "High productivity with the best characteristics for me.",
+          "productRating": "5"
+        },
+        {
+          "userId": "6",
+          "date": "28.03.2020",
+          "userName": "Nick Fluffet",
+          "textReview": "I've bought it like a present for my girl. She is happy, so me too.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "date": "02.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/6/5/6556c4aa238d36d78c3493787c568119.jpg",
+      "name": "Samsung Galaxy Note 10",
+      "price": "965",
+      "description": "Perform Samsung Galaxy Note with a power of lap-top. It is a game console, a professional camera and a smart electronic pen. All in one.",
+      "specs": {
+        "displaySize": "6.3\"",
+        "displayType": "AMOLED",
+        "displayResolution": "2280 х 1080",
+        "cpu": "Samsung Exynos 9825",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "8",
+      "reviews": [{
+          "userId": "7",
+          "date": "30.12.2019",
+          "userName": "Phiona Boldbruck",
+          "textReview": "Great design and perfect stuffing. But the rpice is high for me.",
+          "productRating": "4"
+        },
+        {
+          "userId": "8",
+          "date": "12.01.2020",
+          "userName": "Bill Groomer",
+          "textReview": "Samsung produce the high-quality products. This one isn't an exception.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "date": "05.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/b/1/b18a477c6805385572bce14554a59978.jpg",
+      "name": "Samsung Galaxy M31",
+      "price": "270",
+      "description": "New Samsung Galaxy M31 with 4 cameras and FHD+ sAMOLED Infinity-U display.",
+      "specs": {
+        "displaySize": "6.4\"",
+        "displayType": "Super AMOLED",
+        "displayResolution": "2340 х 1080",
+        "cpu": "Samsung Exynos 9611",
+        "storage": "128 GB",
+        "ram": "6 GB"
+      },
+      "quantity": "15",
+      "reviews": [{
+          "userId": "9",
+          "date": "01.12.2019",
+          "userName": "Groov Groov",
+          "textReview": "OH, My... 4 cameras...Why so many? My friend bought it and I heard only bad reviews.",
+          "productRating": "2"
+        },
+        {
+          "userId": "10",
+          "date": "05.02.2020",
+          "userName": "S. Bright",
+          "textReview": "For me it's good. Almost everything I need in one gadget.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "date": "20.10.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/3/0/302443ad2a2bdd4330918de699c5b64c.jpg",
+      "name": "realme C2",
+      "price": "200",
+      "description": "realme C2 with mega display and mega battery. Fast and flow work.",
+      "specs": {
+        "displaySize": "6.1\"",
+        "displayType": "IPS",
+        "displayResolution": "1560 x 720",
+        "cpu": "MediaTek Helio P22",
+        "storage": "32 GB",
+        "ram": "2 GB"
+      },
+      "quantity": "5",
+      "reviews": [{
+          "userId": "11",
+          "date": "22.11.2019",
+          "userName": "Lika Light",
+          "textReview": "Took it as didn't have lots of money that time. However, I think it's better than Xiaomi.",
+          "productRating": "4"
+        },
+        {
+          "userId": "12",
+          "date": "26.12.2019",
+          "userName": "Frodo B",
+          "textReview": "I've been using it for a month and have only positive impressions.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "date": "13.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/8/c/8c901999dacf4c04a72a403f6ad01e14.jpg",
+      "name": "Apple iPhone 11",
+      "price": "970",
+      "description": "New double-camera system. Auto-night mode. Effective Smart HDR.",
+      "specs": {
+        "displaySize": "6.1\"",
+        "displayType": "IPS",
+        "displayResolution": "1792 х 828",
+        "cpu": "Apple A13",
+        "storage": "64 GB",
+        "ram": "4 GB"
+      },
+      "quantity": "14",
+      "reviews": [{
+          "userId": "13",
+          "date": "29.12.2019",
+          "userName": "Tom Broom",
+          "textReview": "I like small devices, this one seemed too big for me. Now, I don't regret at all. Excellent phone.",
+          "productRating": "5"
+        },
+        {
+          "userId": "14",
+          "date": "04.02.2020",
+          "userName": "Nick Folker",
+          "textReview": "Chic product, unfortunately I don't see any changes in design.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "date": "15.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/a/8/a8a2f7996f005f022898adb43033975e.jpg",
+      "name": "realme XT 8",
+      "price": "300",
+      "description": "Integrated TetraCell and 3D HDR technology. High camera resolution. Modern design.",
+      "specs": {
+        "displaySize": "6.4\"",
+        "displayType": "Super AMOLED",
+        "displayResolution": "2340 х 1080",
+        "cpu": "Qualcomm Snapdragon 712",
+        "storage": "128 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "5",
+      "reviews": [{
+          "userId": "15",
+          "date": "16.03.2020",
+          "userName": "Mr. Flesh",
+          "textReview": "Big sceen is ideal for my favourite games. All works good, there was a problem with sound. Send to tech support to solve the problem.",
+          "productRating": "4"
+        },
+        {
+          "userId": "16",
+          "date": "11.04.2020",
+          "userName": "Felisia Sher",
+          "textReview": "Powerful, ideal camera, identifies finger prints evene with wet hands. One problem - can't get how to cancel auto downloading from telegram.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "date": "19.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/b/f/bff3a7bd798f8e518ea467cee07206d6.jpg",
+      "name": "Apple iPhone 11 Pro",
+      "price": "1280",
+      "description": "Revolutionary camera system offers new features and it is easy to use. Battery life has been much more increased.",
+      "specs": {
+        "displaySize": "5.8\"",
+        "displayType": "OLED",
+        "displayResolution": "2436 x 1125",
+        "cpu": "Apple A13",
+        "storage": "64 GB",
+        "ram": "4 GB"
+      },
+      "quantity": "5",
+      "reviews": [{
+          "userId": "17",
+          "date": "19.03.2020",
+          "userName": "Alex Rosumov",
+          "textReview": "Recommend to get this phone - useful, ideal for modern games. Unreal feeling using this top device. ",
+          "productRating": "5"
+        },
+        {
+          "userId": "18",
+          "date": "09.04.2020",
+          "userName": "Max Omega",
+          "textReview": "Couldn't find any disadvantages. I think, they can't be - it is Apple.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "date": "24.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/d/d/ddd958f6c4f42642d2198b62f7aa24ef.jpg",
+      "name": "ZTE Blade A7",
+      "price": "200",
+      "description": "Thin, modern design, comfortable in use. Frameless display is ideal to be deeply in gaming. Camera with autofocus.",
+      "specs": {
+        "displaySize": "6.1\"",
+        "displayType": "TFT",
+        "displayResolution": "1560 x 720",
+        "cpu": "Spreadtrum SC9863A",
+        "storage": "32 GB",
+        "ram": "2 GB"
+      },
+      "quantity": "16",
+      "reviews": [{
+          "userId": "19",
+          "date": "08.02.2020",
+          "userName": "Nika",
+          "textReview": "Good phone, excellent price. I like usual phones without super features.",
+          "productRating": "5"
+        },
+        {
+          "userId": "20",
+          "date": "27.02.2020",
+          "userName": "Valery Klaps",
+          "textReview": "Took it for my child. What kids need? Big screen and lots of memory for games. And, of course, low price.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "date": "19.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/0/7/07d258e3976ecbe85298fa7f43158250.jpg",
+      "name": "vivo Y91C",
+      "price": "310",
+      "description": "New technologies have been used to create this phone. Modern screen, light in weight, smart camera and extended battery power.",
+      "specs": {
+        "displaySize": "6.22\"",
+        "displayType": "IPS",
+        "displayResolution": "1520 x 720",
+        "cpu": "MediaTek MT6762R",
+        "storage": "32 GB",
+        "ram": "2 GB"
+      },
+      "quantity": "15",
+      "reviews": [{
+          "userId": "21",
+          "date": "26.12.2019",
+          "userName": "Philop Jhones",
+          "textReview": "Looks and works great. It has been being used for 2 months and there is no problems.",
+          "productRating": "5"
+        },
+        {
+          "userId": "22",
+          "date": "23.01.2020",
+          "userName": "Eugene Blaskov",
+          "textReview": "Nice product for such price, but seldom have problems with touchscreen.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "date": "20.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/b/8/b859a6062b7bcee7c0d9eb2e396dc700.jpg",
+      "name": "Huawei Y5",
+      "price": "200",
+      "description": "Huawei Y5 has 5.7 screen which shows you our big and wonderful world. This phone offers you the ability to watch videos, play games and comunicate with comfort.",
+      "specs": {
+        "displaySize": "5.71\"",
+        "displayType": "IPS",
+        "displayResolution": "1520 x 720",
+        "cpu": "MediaTek Helio A22",
+        "storage": "16 GB",
+        "ram": "2 GB"
+      },
+      "quantity": "11",
+      "reviews": [{
+          "userId": "23",
+          "date": "22.02.2020",
+          "userName": "Nathon Smith",
+          "textReview": "Perfectly lays in my hands. Good optimization. Didn't find any disadvantages.",
+          "productRating": "5"
+        },
+        {
+          "userId": "24",
+          "date": "02.03.2020",
+          "userName": "Anat Sailin",
+          "textReview": "I like the body material, price, its work.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "date": "16.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/6/5/65a6180ed3de9b49b57d016cdb42144e.jpg",
+      "name": "OnePlus 7 Pro",
+      "price": "610",
+      "description": "The OnePlus 7 Pro is the perfect mix of style and technology. Glass panel, AMOLED display and many impressive features create excellent prduct.",
+      "specs": {
+        "displaySize": "6.67\"",
+        "displayType": "Fluid AMOLED",
+        "displayResolution": "3120 х 1440",
+        "cpu": "Qualcomm Snapdragon 855",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "7",
+      "reviews": [{
+        "userId": "25",
+        "date": "18.04.2020",
+        "userName": "Max Richlik",
+        "textReview": "Good battery, high speed of work, nice design. Minus - heavy weight, without 3.5 mm output for earphones.",
+        "productRating": "4"
+      }]
+    }
+  ],
+  "laptops": [{
+      "id": "14",
+      "date": "25.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/d/a/da1fac2e095073409f28750e4dc93e0e.jpg",
+      "name": "Lenovo IdeaPad 330-15IGM",
+      "price": "265",
+      "description": "Lenovo IdeaPad 330-15IGM is a stylish and powerful laptop, which will be your best companion in work and entertainment.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "TN+film",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Pentium N5000",
+        "storage": "1 TB",
+        "ram": "4 GB"
+      },
+      "quantity": "12",
+      "reviews": [{
+        "userId": "26",
+        "date": "15.01.2020",
+        "userName": "Sim Sin",
+        "textReview": "Always freezes. Don't like it. But may be problems in soft. Don't know.",
+        "productRating": "3"
+      }]
+    },
+    {
+      "id": "15",
+      "date": "10.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/1/c/1c3fe9bc8fbd914238384f715676fceb.jpg",
+      "name": "Apple MacBook Air",
+      "price": "895",
+      "description": "MacBook Air works without recharging up to 12 hours. When you want to relax, you can watch movies in iTunes. MacBook Air can standby for up to 30 days.",
+      "specs": {
+        "displaySize": "13.3\"",
+        "displayType": "Retina",
+        "displayResolution": "1440 x 900",
+        "cpu": "Intel Core i5",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "27",
+          "date": "10.02.2020",
+          "userName": "Tom Bioshavic",
+          "textReview": "Everything is great, unfortunately the price is too high.",
+          "productRating": "4"
+        },
+        {
+          "userId": "28",
+          "date": "12.03.2020",
+          "userName": "Mr. Twister",
+          "textReview": "Very glad to purchase it. Works great!!!",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "date": "18.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/6/b/6b6489e2981e0b77cfea9a61b507ce53.jpg",
+      "name": "Acer Swift 1 SF114-32",
+      "price": "498",
+      "description": "Compactness and convenience. Perfect design with a thin profile, it is convenient to take a laptop with you to solve basic needs.",
+      "specs": {
+        "displaySize": "14\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Pentium Silver N5000",
+        "storage": "128 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "10",
+      "reviews": [{
+        "userId": "29",
+        "date": "20.04.2020",
+        "userName": "Free Man",
+        "textReview": "Nice laptop, ideal for travelling.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "17",
+      "date": "20.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/6/4/641c11386e1b8ca811002383de06fa1b.jpg",
+      "name": "Asus TUF Gaming FX505",
+      "price": "970",
+      "description": "With latest processor AMD Ryzen and discrete graphics card NVIDIA GeForce GTX. Thin frame display and a high refresh rate ensures teh best visualisation.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "AMD Ryzen 7-3750H",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "5",
+      "reviews": []
+    },
+    {
+      "id": "18",
+      "date": "21.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/2/8/28f22f97d6e622280f4019716e4389a6.jpg",
+      "name": "HP Envy 13-ah0007ur",
+      "price": "1130",
+      "description": "This stylish and powerful laptop has the same features as a high-performance PC. Full HD screen, high-performance and portability.",
+      "specs": {
+        "displaySize": "13.3\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Core i7-8550U",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "10",
+      "reviews": [{
+          "userId": "30",
+          "date": "25.02.2020",
+          "userName": "Loren Share",
+          "textReview": "Bought it for working at home and I can't say anything bad for this type of laptop.",
+          "productRating": "5"
+        },
+        {
+          "userId": "31",
+          "date": "10.04.2020",
+          "userName": "Bill Brown",
+          "textReview": "Good laptop, but the price is too high for it, cause the productiveness could be better.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "date": "19.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/a/5/a588de2b98c53d1e7c9078a2eae05bbf.jpg",
+      "name": "Acer Aspire 3 A315-55G",
+      "price": "549",
+      "description": "Acer Aspire 3 A315-55G combines high performance and a stylish design. You can efficiently work and comfortably relax with this laptop.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "TN+film",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Core i3-8145U",
+        "storage": "1 TB",
+        "ram": "2 GB"
+      },
+      "quantity": "20",
+      "reviews": [{
+        "userId": "32",
+        "date": "22.04.2020",
+        "userName": "Villiam W.",
+        "textReview": "Not enough power for games.",
+        "productRating": "3"
+      }]
+    },
+    {
+      "id": "20",
+      "date": "23.10.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/b/5b77f9c066a7e2e4334ea6e3418b63d6.jpg",
+      "name": "Lenovo Ideapad S340-15IWL",
+      "price": "485",
+      "description": "Excellent choice for games in Full HD resolution or to create and show your work projects.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Core i3-8145U",
+        "storage": "256 GB",
+        "ram": "8 GB"
+      },
+      "quantity": "17",
+      "reviews": [{
+          "userId": "33",
+          "date": "12.11.2019",
+          "userName": "Vladius",
+          "textReview": "Took this deivice for working in photoshop. Design- great, cpu - great. I'd like to have one more USB output as don't use type-с.",
+          "productRating": "5"
+        },
+        {
+          "userId": "34",
+          "date": "02.12.2019",
+          "userName": "Lian Hogan",
+          "textReview": "Colourful screen, fast charging, light-keyboard, but no CD-driver.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "date": "12.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/b/c/bc14ac0c216a28f8d3e1c320f97a0965.jpg",
+      "name": "Apple MacBook Pro",
+      "price": "3000",
+      "description": "New MacBook Pro is the most powerful laptop for those who are changing the world and push it forward.",
+      "specs": {
+        "displaySize": "16\"",
+        "displayType": "IPS",
+        "displayResolution": "3072 x 1920",
+        "cpu": "Intel Core i9",
+        "storage": "1 TB",
+        "ram": "16 GB"
+      },
+      "quantity": "9",
+      "reviews": [{
+          "userId": "35",
+          "date": "30.12.2019",
+          "userName": "EndRey",
+          "textReview": "Good monitor, fast cpu and great design. Without minuses.",
+          "productRating": "5"
+        },
+        {
+          "userId": "36",
+          "date": "06.03.2020",
+          "userName": "Mike Forge",
+          "textReview": "Only positive. It is Apple, what can I say bad about this brand?))))",
+          "productRating": "5"
+        },
+        {
+          "userId": "37",
+          "date": "19.04.2020",
+          "userName": "Simon Cat",
+          "textReview": "Apple always creates excellent products. This time the company creates top level laptop, as usually.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "date": "18.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/1/d/1d70143afb380aa71093f25d055ab805.jpg",
+      "name": "Lenovo IdeaPad S145",
+      "price": "271",
+      "description": "Excellent sound and picture, high performance and light in weight. Choose it for work or fun.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "TN+film",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Pentium Gold 5405U",
+        "storage": "128 GB",
+        "ram": "4 GB"
+      },
+      "quantity": "10",
+      "reviews": []
+    },
+    {
+      "id": "23",
+      "date": "20.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/f/9/f9ab2506d3ba37ea128ecc71e4c06c66.jpg",
+      "name": "Lenovo Legion Y540",
+      "price": "1480",
+      "description": "Game laptop of the new generation. Stylish and portable, with high performance components.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Core i5-9300H",
+        "storage": "1 TB",
+        "ram": "16 GB"
+      },
+      "quantity": "12",
+      "reviews": [{
+        "userId": "37",
+        "date": "30.02.2020",
+        "userName": "Ivan Stolin",
+        "textReview": "The system works very fast, I was shocked.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "24",
+      "date": "30.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/9/4/9445aeb776eaba7defa7669ac039b1ab.jpg",
+      "name": "Lenovo IdeaPad Gaming L340",
+      "price": "728",
+      "description": "Lenovo IdeaPad Gaming L340 is ready to play, and you? New cpu and graphics card, amazing audio system 'Dolby Audio' and keyboard with backlight. Just start!",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "Intel Core i5-9300H",
+        "storage": "1 TB",
+        "ram": "8 GB"
+      },
+      "quantity": "11",
+      "reviews": [{
+          "userId": "38",
+          "date": "13.03.2020",
+          "userName": "Lilit S",
+          "textReview": "The laptop is great for all my needs. Only low in usb outputs.",
+          "productRating": "4"
+        },
+        {
+          "userId": "39",
+          "date": "13.04.2020",
+          "userName": "Mrs. X",
+          "textReview": "Use it for work in photoshop, everything works fast. There is one minus, I'm bored with backligthof keyboard. It is blue only,I'd like to have an opportunity to change it.",
+          "productRating": "4"
+        },
+        {
+          "userId": "40",
+          "date": "18.04.2020",
+          "userName": "Saenco Sunchos",
+          "textReview": "Without minuses. I like it.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "date": "19.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/6/7/67ed0fe4cfa390185d2b7a664c3fdf83.jpg",
+      "name": "HP Pavilion Gaming 15",
+      "price": "860",
+      "description": "HP Pavilion 15 - a gaming laptop with in a stylish design and powerful filling. Powerful graphic card for every need and wide IPS screen.",
+      "specs": {
+        "displaySize": "15.6\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "AMD Ryzen 7-3750H",
+        "storage": "1 TB",
+        "ram": "8 GB"
+      },
+      "quantity": "4",
+      "reviews": [{
+        "userId": "41",
+        "date": "22.04.2020",
+        "userName": "Solid Simon",
+        "textReview": "Amazing laptop, all games starts fast! No problems at all.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "26",
+      "date": "21.10.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/a/5a57a84841797b8e5eed52c2870f7975.jpg",
+      "name": "Chuwi Herobook",
+      "price": "215",
+      "description": "Chuwi Herobook has a 14.1 IPS screen with a high resolution, which provides a bright and clear picture. Watch movies, play or work with pleasure.",
+      "specs": {
+        "displaySize": "14.1\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 x 1080",
+        "cpu": "AMD Ryzen 7-3750H",
+        "storage": "64 GB",
+        "ram": "4 GB"
+      },
+      "quantity": "3",
+      "reviews": [{
+          "userId": "42",
+          "date": "28.10.2019",
+          "userName": "Sata Star",
+          "textReview": "Plus - light and good screen, minus - keyboard stopped working after a month.",
+          "productRating": "3"
+        },
+        {
+          "userId": "43",
+          "date": "07.12.2019",
+          "userName": "Sata Star",
+          "textReview": "Good at work but without added slot for memory.",
+          "productRating": "4"
+        },
+        {
+          "userId": "44",
+          "date": "22.12.2019",
+          "userName": "Sata Star",
+          "textReview": "USB outputs sometimes don't work. Body started to crash after 2 months.",
+          "productRating": "3"
+        }
+      ]
+    }
+  ],
+  "televisions": [{
+      "id": "27",
+      "date": "08.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/8/1/81e6a4808a8415da232700bc1ab3c748.jpg",
+      "name": "Xiaomi Mi TV HD 4A",
+      "price": "200",
+      "description": "Xiaomi Mi TV HD 4A has a thin screen, a powerful processor and sufficient amount of RAM. With a new feature - voice control.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "VA",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "7",
+      "reviews": [{
+          "userId": "45",
+          "date": "03.03.2020",
+          "userName": "Master Z",
+          "textReview": "Good device. The sound is gorgeous! Picture - fire🔥",
+          "productRating": "5"
+        },
+        {
+          "userId": "46",
+          "date": "13.03.2020",
+          "userName": "Name2 Surname2",
+          "textReview": "Sometimes it freezes and open main menu.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "date": "04.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/a/9/a9b421d6d36e67638ff9d4db3096d70e.jpg",
+      "name": "Samsung 32 Full HD Smart N5300 TV",
+      "price": "290",
+      "description": "A stunning Full HD entertainment experience with the N5300 TV. All your content and connected devices in one place.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "VA",
+        "displayResolution": "1920 x 1080"
+      },
+      "quantity": "11",
+      "reviews": [{
+          "userId": "47",
+          "date": "09.01.2020",
+          "userName": "Dave Sur",
+          "textReview": "Brilliant tv and incredibly light so haning it on a wall is a doddle.",
+          "productRating": "5"
+        },
+        {
+          "userId": "48",
+          "date": "17.02.2020",
+          "userName": "Pretty Pipy",
+          "textReview": "Excellent product. So so pleased. Picture very sharp and clear.",
+          "productRating": "5"
+        },
+        {
+          "userId": "49",
+          "date": "27.02.2020",
+          "userName": "Grandi Gandi",
+          "textReview": "Good HD screen, smart TV, nice sound, high quality.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "date": "17.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_500/uploads/shop/a/9/a9b421d6d36e67638ff9d4db3096d70e.jpg",
+      "name": "Xiaomi Mi TV 4S 43 UHD 4K",
+      "price": "323",
+      "description": "The display has a viewing angle of around 178 degrees. The body of the Mi TV 4 75 inch is wholly made of flaunts metal construction. For a better experience of high graphics content, the TV is loaded with a Mali-T830 GPU.",
+      "specs": {
+        "displaySize": "43\"",
+        "displayType": "VA",
+        "displayResolution": "3840 x 2160"
+      },
+      "quantity": "5",
+      "reviews": [{
+          "userId": "50",
+          "date": "19.12.2019",
+          "userName": "Alexandra Folanda",
+          "textReview": "Everything is perfect for such price.",
+          "productRating": "5"
+        },
+        {
+          "userId": "51",
+          "date": "20.01.2020",
+          "userName": "Donny Li",
+          "textReview": "Excellent picture and sound quality, only wide legs - difficult to find place to set up.",
+          "productRating": "4"
+        },
+        {
+          "userId": "52",
+          "date": "24.02.2020",
+          "userName": "Glores Jem",
+          "textReview": "The tv is great with the colours as they are bright and it is easy to use.",
+          "productRating": "5"
+        },
+        {
+          "userId": "53",
+          "date": "06.04.2020",
+          "userName": "Sergey Dromov",
+          "textReview": "Bad sound and picture, works slow.",
+          "productRating": "2"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "date": "20.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/7/8/7832ad6a81d852f1c652be8df5e28ff5.jpg",
+      "name": "Samsung 43 4K Smart TV",
+      "price": "500",
+      "description": "Experience incredible picture detail as the film makers intended.",
+      "specs": {
+        "displaySize": "43\"",
+        "displayType": "VA",
+        "displayResolution": "3840 x 2160"
+      },
+      "quantity": "8",
+      "reviews": [{
+        "userId": "54",
+        "date": "01.04.2020",
+        "userName": "Glores Jem",
+        "textReview": "The tv is great with the colours as they are bright and it is easy to use.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "31",
+      "date": "03.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/2/7/273ae180853d9c13128a02bc6f442b10.jpg",
+      "name": "Ergo 24 HD Ready",
+      "price": "190",
+      "description": "Offering the perfect balance of gas assisted fingertip adjustment and contemporary styling, with a sleek streamlined design. Dual screen working is proven to increase productivity within the workplace.",
+      "specs": {
+        "displaySize": "24\"",
+        "displayType": "VA",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "10",
+      "reviews": [{
+          "userId": "55",
+          "date": "10.02.2020",
+          "userName": "Stone Heart",
+          "textReview": "Usual TV, perfectly suits to my kitchen.",
+          "productRating": "5"
+        },
+        {
+          "userId": "56",
+          "date": "11.03.2020",
+          "userName": "Jillia Storm",
+          "textReview": "Not very good picture.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "date": "18.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/8/d/8dca36ef8a4c8235492e5839a2ccc002.jpg",
+      "name": "Blaupunkt 24 HD",
+      "price": "220",
+      "description": "With the Blaupunkt 24 you can enjoy your favourite entertainment in HD resolution. USB recording function. Versatile, energy efficient design.",
+      "specs": {
+        "displaySize": "24\"",
+        "displayType": "VA",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "15",
+      "reviews": [{
+        "userId": "57",
+        "date": "20.04.2020",
+        "userName": "Stone Heart",
+        "textReview": "Works well. Would highly recommend.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "33",
+      "date": "18.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/3/1/31d04af0d4ba717a829d4bbb9a7c65e2.jpg",
+      "name": "Philips 22 Full HD",
+      "price": "250",
+      "description": "Full HD TV with Pixel Plus HD processing giving detailed and natural-looking pictures. Slim bezels with a lean-back design.",
+      "specs": {
+        "displaySize": "22\"",
+        "displayType": "VA",
+        "displayResolution": "1920 x 1080"
+      },
+      "quantity": "15",
+      "reviews": [{
+          "userId": "59",
+          "date": "11.02.2020",
+          "userName": "Michael Connel",
+          "textReview": "Only connects to for freeview streaming channels.not the internet as for browsing,apps etc.",
+          "productRating": "3"
+        },
+        {
+          "userId": "60",
+          "date": "07.03.2020",
+          "userName": "Robert Parsel",
+          "textReview": "I don't think this TV is full HD. Picture quality is poor with very low resolution and patchy colours.",
+          "productRating": "3"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "date": "13.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/b/7/b73258844d1c11d2e5a8add30300a045.jpg",
+      "name": "Toshiba 32 HD",
+      "price": "260",
+      "description": "Never miss your favourite TV shows, music and films. With Toshiba TV's you get all the top streaming apps built in as standard.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "VA",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "14",
+      "reviews": [{
+          "userId": "61",
+          "date": "03.12.2019",
+          "userName": "Steven Jones",
+          "textReview": "Great tv for the money picture perfect, easy set up and here within two days with prime. Sound quality is very good.",
+          "productRating": "5"
+        },
+        {
+          "userId": "62",
+          "date": "10.12.2019",
+          "userName": "Klaudia P.",
+          "textReview": "The Wireless internet connection option came up at first and then disconnected and now doesn’t come up at all. Not happy.",
+          "productRating": "2"
+        },
+        {
+          "userId": "63",
+          "date": "21.12.2019",
+          "userName": "David D.",
+          "textReview": "This TV is situated in our kitchen and used mainly by my wife. She is delighted with it. A very good purchase!",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "date": "03.01.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/a/1/a157d5132893f6d2850057ec64f063c9.jpg",
+      "name": "Mystery 32 Full HD Smart TV",
+      "price": "280",
+      "description": "Experience the raw beauty of each scene, watch as your favourite characters solve the mystery and feel apart of something bigger than yourself. With Ultra HD technology you will see that nothing is truly impossible.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "VA",
+        "displayResolution": "1920 x 1080"
+      },
+      "quantity": "13",
+      "reviews": [{
+        "userId": "64",
+        "date": "09.02.2020",
+        "userName": "DNX X",
+        "textReview": "Terrible picture, colours don’t look good & remote control is very hard to use.",
+        "productRating": "2"
+      }]
+    },
+    {
+      "id": "36",
+      "date": "10.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/a/9/a994e3c9747f49e94bab7db5856f1488.jpg",
+      "name": "Skyworth 32 Full HD Smart TV",
+      "price": "300",
+      "description": "Thin design and sleek Remote Control.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "IPS",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "10",
+      "reviews": [{
+        "userId": "65",
+        "date": "07.04.2020",
+        "userName": "Dave Ervington",
+        "textReview": "Looks cool at home on the wall.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "37",
+      "date": "11.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/e/5e3ebad2d1f16586078577aff34c6607.jpg",
+      "name": "LG 32 HD Ready Smart TV",
+      "price": "400",
+      "description": "Thin design and sleek Remote Control.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "IPS",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "18",
+      "reviews": [{
+          "userId": "66",
+          "date": "27.12.2019",
+          "userName": "Ish Sharhen",
+          "textReview": "A good value for money TV.",
+          "productRating": "5"
+        },
+        {
+          "userId": "67",
+          "date": "11.02.2020",
+          "userName": "Rosa Flower",
+          "textReview": "A lovely TV. Bought for my Grandson. We had to buy him an indoor ariel as he could not access all channels.",
+          "productRating": "4"
+        },
+        {
+          "userId": "68",
+          "date": "19.03.2020",
+          "userName": "Kel Loggs",
+          "textReview": "Really easy to set up. Great having the Netflix built-in rather than using an extra box. Lovely picture and sound quality. Best of all, it has a decent stand. Well done LG, great TV at a great price.",
+          "productRating": "5"
+        },
+        {
+          "userId": "69",
+          "date": "20.03.2020",
+          "userName": "Jayne J69",
+          "textReview": "Good model and ideal tv for our needs.looks perfect in our bedroom.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "date": "04.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/a/6/a68635c5afb4b14154afc7248130bdce.jpg",
+      "name": "Sony 32 HD Smart TV",
+      "price": "450",
+      "description": "Built in Wi-Fi Smart TV giving you access to selected catch-up TV Services as well as Netflix, Amazon Prime and YouTube. Photo Sharing Plus is the easy way for you and your friends to share photos and videos on the big screen.",
+      "specs": {
+        "displaySize": "32\"",
+        "displayType": "IPS",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "70",
+          "date": "24.11.2019",
+          "userName": "Ruki Hover",
+          "textReview": "The best TV for me and my son. I bought one for my son's birthday.",
+          "productRating": "5"
+        },
+        {
+          "userId": "71",
+          "date": "29.11.2019",
+          "userName": "Hugh Mcgow",
+          "textReview": "The picture quality of this Sony TV is excelent.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "date": "16.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/f/5f810b4b2d13eb24675db1d63e2d3652.jpg",
+      "name": "Mystery 55",
+      "price": "510",
+      "description": "Minimalist design, brigth colours and great sound. Excellent choice for any room in the house.",
+      "specs": {
+        "displaySize": "55\"",
+        "displayType": "VA",
+        "displayResolution": "3840 x 2160"
+      },
+      "quantity": "10",
+      "reviews": [{
+        "userId": "72",
+        "date": "19.04.2020",
+        "userName": "Ruki Hover",
+        "textReview": "Excellent TV for our living room. My family like watching films every evening.",
+        "productRating": "5"
+      }]
+    }
+  ],
+  "monitors": [{
+      "id": "40",
+      "date": "03.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/7/57857a7236b212d3de27a2adff2a0b62.jpg",
+      "name": "Samsung 23.5 FHD S24F350F",
+      "price": "150",
+      "description": "Incredibly slim profile and stylish, contemporary design. Optimised for viewing comfort. Extra-wide viewing angle for the perfect view from anywhere.",
+      "specs": {
+        "displaySize": "23.5\"",
+        "displayType": "PLS",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "15",
+      "reviews": [{
+          "userId": "73",
+          "date": "05.04.2020",
+          "userName": "Paul Samdd",
+          "textReview": "Great for gaming my son loves it and better then a tv he said.",
+          "productRating": "5"
+        },
+        {
+          "userId": "74",
+          "date": "15.04.2020",
+          "userName": "Magpie Mag",
+          "textReview": "This is the 2nd one of these I have purchased for a dual screen setup for my PC, its a good monitor, ok price.",
+          "productRating": "5"
+        },
+        {
+          "userId": "75",
+          "date": "20.04.2020",
+          "userName": "Tiz PC",
+          "textReview": "Monitor is brilliant. Perfect for gaming. Great size nice and light to move if needed.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "date": "15.10.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/d/7/d7793229b81704f2ad7e7632b13d066f.jpg",
+      "name": "LG 23.8 FHD",
+      "price": "220",
+      "description": "The Full HD display with 1ms Motion Blur Reduction allows gamers to enjoy the precision and accuracy needed to play at a very high level.",
+      "specs": {
+        "displaySize": "23.8\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "10",
+      "reviews": [{
+        "userId": "76",
+        "date": "05.11.2019",
+        "userName": "John Mangan",
+        "textReview": "Good price and fast delivery what more can you ask for.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "42",
+      "date": "10.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/7/4/7447930a342e6cdffe64869459b3dfd8.jpg",
+      "name": "Acer Nitro 23.8 VG240Y FHD",
+      "price": "240",
+      "description": "Firmly Planted. An Ergonomic Edge. The ZeroFrame1 design makes for a near-seamless look, allowing you to see more of what matters most: the screen.",
+      "specs": {
+        "displaySize": "23.8\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "16",
+      "reviews": [{
+          "userId": "77",
+          "date": "09.02.2020",
+          "userName": "JA Christofides",
+          "textReview": "there are a tonne of stuck pixels and the bottom right corner has terrible light bleed.",
+          "productRating": "1"
+        },
+        {
+          "userId": "78",
+          "date": "19.03.2020",
+          "userName": "Nathan Jack",
+          "textReview": "Very good monitor for the money, forget about the HDR though.",
+          "productRating": "4"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "date": "10.03.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/5/e/5ee615aaf48bfeb6e13206e27b12cb36.jpg",
+      "name": "Samsung C24RG50",
+      "price": "260",
+      "description": "Dive Into the Curve. Smooth, Fast Visuals. Gamer Exclusives. Fresh Eyes Win More. See Through the Dark.",
+      "specs": {
+        "displaySize": "24\"",
+        "displayType": "VA",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "14",
+      "reviews": [{
+          "userId": "79",
+          "date": "16.03.2020",
+          "userName": "Tink GB",
+          "textReview": "So I have had this monitor for 5 days now and I can say for its price what an amazing piece of kit this is. The picture quality is brilliant and that 144hz keeps everything flowing so smooth.",
+          "productRating": "5"
+        },
+        {
+          "userId": "80",
+          "date": "03.04.2020",
+          "userName": "Rob Euphoria",
+          "textReview": "Just received the replacement today, 2 dead pixel on this one also. Samsung's quality control really is poor. It's such a pity as the monitor looks really nice. This is going back and I'm going to go with a different brand.",
+          "productRating": "2"
+        },
+        {
+          "userId": "81",
+          "date": "18.04.2020",
+          "userName": "Eoin Lynch",
+          "textReview": "Very nice monitor.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "date": "15.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/7/2/724c554babbd7e55e70e064ce9c2d27a.jpg",
+      "name": "Asus MG248QR",
+      "price": "460",
+      "description": "Designed for intense, fast-paced games. Full HD gaming display with an ultra-fast 1ms response time and blazing 144Hz refresh rate to give you super-smooth gameplay.",
+      "specs": {
+        "displaySize": "24\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "82",
+          "date": "20.12.2019",
+          "userName": "P Dilla",
+          "textReview": "The resolution is gorgeous but i use it at 1440 because 4k is too big. At least its future proof for if I change set ups.",
+          "productRating": "5"
+        },
+        {
+          "userId": "83",
+          "date": "20.04.2020",
+          "userName": "Amaz Cust",
+          "textReview": "Great quality picture if viewed from the right angle...",
+          "productRating": "3"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "date": "06.10.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/1/2/12d56b9f8dc77975232f07c2ca5344e2.jpg",
+      "name": "Acer 27 Predator XB271HKbmiprz",
+      "price": "1100",
+      "description": "This Full HD LED monitor with 50,000,000:1 high contrast ratio and HDMI interface is optimised for a fine image and colour quality.",
+      "specs": {
+        "displaySize": "27\"",
+        "displayType": "IPS",
+        "displayResolution": "3840 х 2160"
+      },
+      "quantity": "8",
+      "reviews": [{
+          "userId": "84",
+          "date": "19.11.2019",
+          "userName": "Mre Mulator",
+          "textReview": "Screen suffers from a flicker/glitch every once in a while. It's terrible for such price.",
+          "productRating": "2"
+        },
+        {
+          "userId": "85",
+          "date": "13.12.2019",
+          "userName": "Eoin O'Reilly",
+          "textReview": "Excellent monitor, with one glaring imperfection.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "date": "23.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/8/2/82857358b1853f109ebde47ae635dcbe.jpg",
+      "name": "Dell 18.5 E1916HV",
+      "price": "189",
+      "description": "Expand your productivity and multimedia performance with this 18.5 inch widescreen display, ideal for movies, photos and videos.",
+      "specs": {
+        "displaySize": "18.5\"",
+        "displayType": "TN",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "14",
+      "reviews": [{
+          "userId": "86",
+          "date": "23.02.2020",
+          "userName": "Benami Good",
+          "textReview": "I've had this screen for a while and have had no problems with it.",
+          "productRating": "5"
+        },
+        {
+          "userId": "87",
+          "date": "20.03.2020",
+          "userName": "Urban Racer",
+          "textReview": "OK.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "date": "05.02.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/a/0/a043aab9453cd4dcbbfb1fc10f23e6d4.jpg",
+      "name": "LG 21.5 FHD",
+      "price": "250",
+      "description": "Lifelike Colours. Wide Viewing Angle. Cinema Screen. Dual Smart Solution.",
+      "specs": {
+        "displaySize": "21.5\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "16",
+      "reviews": [{
+          "userId": "88",
+          "date": "11.02.2020",
+          "userName": "Mubin J",
+          "textReview": "Just awesome monitor.",
+          "productRating": "5"
+        },
+        {
+          "userId": "89",
+          "date": "12.02.2020",
+          "userName": "Cornelius Lacer",
+          "textReview": "It is still working very well. Love the colors, i dont feel that 5ms delay in fps games at all. Great value overall.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "date": "17.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/2/b/2bf1d4a1993af392a078a7972a01c331.jpg",
+      "name": "Acer 21.5 SA220Qbid",
+      "price": "259",
+      "description": "The elegantly thin design ensures that the monitor looks great and gives more space to its screen. With its wide viewing angles and IPS technology you can share the images with those around you.",
+      "specs": {
+        "displaySize": "21.5\"",
+        "displayType": "IPS",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "13",
+      "reviews": [{
+        "userId": "90",
+        "date": "20.04.2020",
+        "userName": "Frank Porington",
+        "textReview": "Great monitor.",
+        "productRating": "5"
+      }]
+    },
+    {
+      "id": "49",
+      "date": "14.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/9/3/9308c764d7b4f8ffb4fff1a184402e11.jpg",
+      "name": "Asus 18.5 VS197DE",
+      "price": "210",
+      "description": "VS197DE LED monitor with 50,000,000:1 high contrast ratio, is optimized for the finest image and color quality. This approach extends to the sturdy stand and slim profile without compromising style in ensuring stability and durability.",
+      "specs": {
+        "displaySize": "18.5\"",
+        "displayType": "TN+Film",
+        "displayResolution": "1366 x 768"
+      },
+      "quantity": "17",
+      "reviews": [{
+          "userId": "91",
+          "date": "02.12.2019",
+          "userName": "Michael Lee",
+          "textReview": "Great monitor for the price but the stand is a slight turn off.",
+          "productRating": "4"
+        },
+        {
+          "userId": "92",
+          "date": "02.02.2020",
+          "userName": "Stuart Rome",
+          "textReview": "Finally a monitor with no dead pixels or screen issues.",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "date": "03.11.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/6/e/6ee16eb2ae8151f90d1c40f0c1eefe57.jpg",
+      "name": "Samsung 21.5 S22F350F",
+      "price": "230",
+      "description": "This monitor has a sophisticated design that is sure to make an impression. Magic Upscale Technology enhances the image quality no matter what the original picture quality was.",
+      "specs": {
+        "displaySize": "21.5\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "93",
+          "date": "18.02.2020",
+          "userName": "Vine Voice",
+          "textReview": "Good colour accuracy, crisp and clear.",
+          "productRating": "5"
+        },
+        {
+          "userId": "94",
+          "date": "16.03.2020",
+          "userName": "Lia Mills",
+          "textReview": " Non-reflective but also non-tilt, so surgery required!",
+          "productRating": "4"
+        },
+        {
+          "userId": "95",
+          "date": "01.04.2020",
+          "userName": "Mrs B.",
+          "textReview": "This monitor is everything you could ask for. Phenomenal monitor!",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "date": "20.04.2020",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/b/d/bdf2aa8a3b165854f39c7d4d5f5bc46c.jpg",
+      "name": "LG 21.5 22MK400A-B",
+      "price": "248",
+      "description": "Reader Mode. Flicker Safe. Dynamic Action Sync. Black Stabilizer. OnScreen Control. Wall Mountable.",
+      "specs": {
+        "displaySize": "21.5\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "11",
+      "reviews": []
+    },
+    {
+      "id": "50",
+      "date": "18.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/6/e/6ee16eb2ae8151f90d1c40f0c1eefe57.jpg",
+      "name": "Samsung 21.5 S22F350F",
+      "price": "243",
+      "description": "This monitor has a sophisticated design that is sure to make an impression. Magic Upscale Technology enhances the image quality no matter what the original picture quality was.",
+      "specs": {
+        "displaySize": "21.5\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "12",
+      "reviews": [{
+          "userId": "93",
+          "date": "17.02.2020",
+          "userName": "Vine Voice",
+          "textReview": "Good colour accuracy, crisp and clear.",
+          "productRating": "5"
+        },
+        {
+          "userId": "94",
+          "date": "19.02.2020",
+          "userName": "Lia Mills",
+          "textReview": " Non-reflective but also non-tilt, so surgery required!",
+          "productRating": "4"
+        },
+        {
+          "userId": "95",
+          "date": "19.04.2020",
+          "userName": "Mrs B.",
+          "textReview": "This monitor is everything you could ask for. Phenomenal monitor!",
+          "productRating": "5"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "date": "19.12.2019",
+      "img": "https://i.citrus.ua/imgcache/size_800/uploads/shop/7/f/7f1184cbb248bf95bfe21b120eea5469.jpg",
+      "name": "Samsung 23.6 FHD S24D300H",
+      "price": "240",
+      "description": "Eco saving monitor. Magic Upscale function for better picture quality. Dynamic Contrast Mega DCR.",
+      "specs": {
+        "displaySize": "23.6\"",
+        "displayType": "TN",
+        "displayResolution": "1920 х 1080"
+      },
+      "quantity": "20",
+      "reviews": [{
+          "userId": "96",
+          "date": "19.01.2020",
+          "userName": "Kale Sale",
+          "textReview": "Five Stars. It's perfect.",
+          "productRating": "5"
+        },
+        {
+          "userId": "97",
+          "date": "19.02.2020",
+          "userName": "Cord Mitchell",
+          "textReview": "Not a great monitor, but it fits my needs for development.",
+          "productRating": "4"
+        }
+      ]
+    }
+  ]
+}
