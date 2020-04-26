@@ -1,137 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <header class="header">
-        <div class="content">
-            <div class="wrapper__header">
-                <div class="logo"><img src="./assets/img/logo-intro.svg" alt="Hillel logo"></div>
-                <div class="main__title">
-                    <h1>Front End - Basic</h1>
-                    <span>Коломиец Виталий</span>
-                </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <div class="content__wrapper">
+      <header>
+        <h1>Portfolio</h1>
+      </header>
+    </div>
+    <main>
+      <div class="content__wrapper">
+        <aside>
+          <div class="portfolio__img">
+            <img src="./assets/img/portfolio.jpg" alt="My foto" />
+          </div>
+          <div class="description">
+            <p class="description__title-name">
+              Kolomiets Vitaliy
+            </p>
+            <p class="description__title-job">Junior Front End Developer</p>
+            <h3>My traits of character:</h3>
+            <ul>
+              <li>Hardworker</li>
+              <li>Confident</li>
+              <li>Polite</li>
+            </ul>
+            <h3>Status:</h3>
+            <p class="description__text">
+              I'm looking for a job.
+            </p>
+            <h3>What I whant from a job:</h3>
+            <ul>
+              <li>An interesting projects</li>
+              <li>Friendly collective</li>
+            </ul>
+            <h3>Contacts:</h3>
+            <p>Location: Ukraine, Odessa</p>
+            <p>Mobile: <a href="tel:+380672917711">+38-067-291-77-11</a></p>
+            <p>Gmail: <a href="mailto:kolumb@gmail.com">kolumb@gmail.com</a></p>
+            <p>Telegram: <a href="https://t.me/kolomiets_vitaliy" target="blank">Telegram</a></p>
+            <p>
+              LinkedIN:
+              <a href="https://www.linkedin.com/in/kolomiets-vitaliy/" target="blank">LinkedIN</a>
+            </p>
+            <p>
+              Facebook:
+              <a href="https://www.facebook.com/kolomietsvitaliy" target="blank">Facebook</a>
+            </p>
+            <p class="last-contact">GitHub: <a href="https://github.com/vertalik" target="blank">GitHub</a></p>
+          </div>
+        </aside>
+        <section class="works">
+          <a class="project-href" href="./store/index.html">
+            <img src="./assets/img/store.JPG" alt="Online Store logo" />
+            <span>THE BEST</span>
+            <div class="caption">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>BOOTSTRAP</span>
             </div>
-        </div>
-    </header>
-    <main class="main__content">
-        <div class="content">
-            <div class="home__work__title">
-                <h2>Home Work</h2>
+          </a>
+          <a class="project-href" href="./activeBox/index.html">
+            <img src="./assets/img/activebox.JPG" alt="ActiveBox logo" />
+            <div class="caption">
+              <span>HTML</span>
+              <span>SASS</span>
+              <span>JS</span>
+              <span>RESPONSIVE</span>
             </div>
-            <section class="home-work-list">
-                <a href="./hillel-hw/hw01/" class="home-work-item">
-                    <img src="./assets/img/sponge.JPG" alt="Sponge Bob" class="list__img">
-                    <span>Sponge Bob</span>
-                    <span class="number">01</span>
-                </a>
-                <a href="./hillel-hw/hw02/" class="home-work-item">
-                    <img src="./assets/img/pretenders.JPG" alt="Pretenders" class="list__img">
-                    <span>Pretenders</span>
-                    <span class="number">02</span>
-                </a>
-                <a href="./hillel-hw/hw03/" class="home-work-item">
-                    <img src="./assets/img/cars.JPG" alt="Cars" class="list__img">
-                    <span>Cars</span>
-                    <span class="number">03</span>
-                </a>
-                <a href="./hillel-hw/hw04/" class="home-work-item">
-                    <img src="./assets/img/bio.JPG" alt="BIO" class="list__img">
-                    <span>BIO</span>
-                    <span class="number">04</span>
-                </a>
-                <a href="./hillel-hw/hw05/" class="home-work-item">
-                    <img src="./assets/img/mondrian.JPG" alt="Mondrian" class="list__img">
-                    <span>Mondrian</span>
-                    <span class="number">05</span>
-                </a>
-                <a href="./hillel-hw/hw06/" class="home-work-item">
-                    <img src="./assets/img/form.JPG" alt="Form" class="list__img">
-                    <span>Form</span>
-                    <span class="number">06</span>
-                </a>
-                <a href="./hillel-hw/hw07/" class="home-work-item">
-                    <img src="./assets/img/bg-mul.JPG" alt="Background" class="list__img">
-                    <span>Background</span>
-                    <span class="number">07</span>
-                </a>
-                <a href="./hillel-hw/hw08/zebra.html" class="home-work-item">
-                    <img src="./assets/img/fonts-gradient.JPG" alt="Fonts - Gradient" class="list__img">
-                    <span>Fonts / Gradient</span>
-                    <span class="number">08</span>
-                </a>
-                <a href="./hillel-hw/hw09/" class="home-work-item">
-                    <img src="./assets/img/card.JPG" alt="Card" class="list__img">
-                    <span>Card</span>
-                    <span class="number">09</span>
-                </a>
-                <a href="./hillel-hw/hw10/" class="home-work-item">
-                    <img src="./assets/img/cover-letter.JPG" alt="Cover letter" class="list__img">
-                    <span>Cover Letter</span>
-                    <span class="number">10</span>
-                </a>
-                <a href="./hillel-hw/hw11/" class="home-work-item">
-                    <img src="./assets/img/prechu.JPG" alt="Prechu" class="list__img">
-                    <span>Prechu</span>
-                    <span class="number">11</span>
-                </a>
-                <a href="./hillel-hw/hw12/" class="home-work-item">
-                    <img src="./assets/img/bukovel.JPG" alt="Bukovel" class="list__img">
-                    <span>Bukovel</span>
-                    <span class="number">12</span>
-                </a>
-                <a href="./hillel-hw/hw13/" class="home-work-item">
-                    <img src="./assets/img/menu.JPG" alt="Menu" class="list__img">
-                    <span>Menu</span>
-                    <span class="number">13</span>
-                </a>
-                <a href="./hillel-hw/hw14/" class="home-work-item">
-                    <img src="./assets/img/activebox.JPG" alt="ActiveBox" class="list__img">
-                    <span>ActiveBox</span>
-                    <span class="number">14</span>
-                </a>
-                <a href="./hillel-hw/hw15/" class="home-work-item">
-                    <img src="./assets/img/animation.JPG" alt="Animation" class="list__img">
-                    <span>Animation</span>
-                    <span class="number">15</span>
-                </a>
-                <a href="./hillel-hw/hw16/" class="home-work-item">
-                    <img src="./assets/img/svg-logo.JPG" alt="SVG" class="list__img">
-                    <span>SVG</span>
-                    <span class="number">16</span>
-                </a>
-                <a href="./hillel-hw/hw17/" class="home-work-item">
-                    <img src="./assets/img/activebox.JPG" alt="ActiveBox & SCSS" class="list__img">
-                    <span>ActiveBox_SCSS</span>
-                    <span class="number">17</span>
-                </a>
-                <a href="./hillel-hw/hw18/" class="home-work-item">
-                    <img src="./assets/img/grid.JPG" alt="Grid Card" class="list__img">
-                    <span>Grid card</span>
-                    <span class="number">18</span>
-                </a>
-                <!-- <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a>
-                <a href="" class="home-work-item"></a> -->
-
-            </section>
-        </div>
+          </a>
+          <a class="project-href" href="./tinyone/index.html">
+            <img src="./assets/img/tinyone.JPG" alt="Tinyone logo" />
+            <div class="caption">
+              <span>HTML</span>
+              <span>SASS</span>
+              <span>BOOTSTRAP</span>
+              <span>RESPONSIVE</span>
+            </div>
+          </a>
+          <a class="project-href" href="./prechu/index.html">
+            <img src="./assets/img/prechu.JPG" alt="Prechu logo" />
+            <div class="caption">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </a>
+        </section>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>

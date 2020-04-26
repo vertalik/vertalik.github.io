@@ -1,0 +1,59 @@
+@import "mixins";
+
+.works__wrapper {
+     @include flex_jc-center_ai-center;
+     width: 100%;
+     flex-wrap: wrap;
+     padding-top: 80px;
+     @media screen and (max-width: 1100px) {
+          padding-top: 0;
+     }
+}
+
+.work__photo {
+     @include w-h(468px, 349px);
+     position: relative;
+     flex-basis: 25%;
+     border-bottom: 1.5px solid $white-color;
+     border-right: 1.5px solid $white-color;
+     @media screen and (max-width: 426px) {
+          flex-basis: 100%;
+          border-right: none;
+     }
+     @media screen and (min-width: 427px) and (max-width: 1100px) {
+          flex-basis: 50%;
+     }
+
+     img {
+          @include w-h(100%, 100%);
+          object-fit: cover;
+     }
+     &:hover > .caption {
+          opacity: 0.9;
+     }
+     &:nth-child(4n + 4) {
+          border-right: none;
+     }
+     .caption {
+          @include flex_jc-center_ai-center;
+          @include w-h(100%, 100%);
+          flex-direction: column;
+          color: $white-color;
+          position: absolute;
+          top: 0;
+          left: 0;
+          text-align: center;
+          line-height: 1.6;
+          background-color: $red-color;
+          opacity: 0;
+          cursor: pointer;
+          transition: opacity ease 0.2s;
+          .caption__title {
+               @include font-style__font-size("Raleway-Bold", $works-caption-text);
+               text-transform: uppercase;
+          }
+          .caption__text {
+               font-size: $works-caption-text;
+          }
+     }
+}

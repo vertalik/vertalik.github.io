@@ -1,0 +1,77 @@
+@import "mixins";
+
+.our__team {
+     @include flex_jc-spb;
+     @include w-h(100% , 100%);
+     padding-top: 100px;
+     @media screen and (max-width: 426px) {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 38px;
+     }
+     @media screen and (min-width: 427px) and (max-width: 1100px) {
+      align-items: center;
+      flex-wrap: wrap;
+      padding-top: 38px;
+  }
+}
+
+.card__gender {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 426px) {
+      width: 90%;
+      margin-bottom: 38px;
+    }
+    @media screen and (min-width: 427px) and (max-width: 1100px) {
+      width: 50%;
+    margin-bottom: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    img {
+      width: 100%;
+    }
+    .gender__name {
+        @include font-style__font-size ("Raleway-SemiBold" , $header-text);
+        padding: 30px 0 16px 0;
+      }
+    & span {
+        @extend .gender__name;
+        padding: 0;
+        font-size: $btn-text-size;
+        text-transform: uppercase;
+        color: $red-color;
+      } 
+      .gender__text {
+        font-size: $card-title;
+        padding-top: 30px;
+        line-height: 1.5;
+        padding-bottom: 30px;
+      } 
+  }
+
+  .social__media__wrapper {
+    display: flex;
+    .social__media {
+        font-size: $icon-font-size;
+        color: $silver-color;
+        @include w-h(40px , 40px);
+        border: 1px solid $silver-color;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 4px;
+        cursor: pointer;
+        transition: all ease 0.2s;
+        &:hover {
+            color: $red-color;
+            border: 1px solid $red-color;
+          }
+        &:last-child {
+            margin-right: 0;
+          }  
+      }
+  }
+
+

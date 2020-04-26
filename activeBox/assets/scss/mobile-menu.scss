@@ -1,0 +1,74 @@
+@import "mixins";
+
+.aside__mobile__menu {
+    position: absolute;
+    left: -288px;
+    top: 72px;
+    transition: left 0.2s;
+  }
+
+  .aside__btn {
+      @include w-h(41px , 28px);
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+  }
+
+  .aside__btn__close {
+    @extend .aside__btn;
+  }
+
+  .mobile__menu__btn__close {
+    padding: 15px 15px 0 0;
+  }
+
+  #aside__menu.open {
+    left: 0;
+  }
+
+  .mobile__menu__wrapper {
+    background-color: $white-color;
+    height: calc(100vh - 72px);
+    max-height: 650px;
+    @include flex_jc-spb;
+    width: 288px;
+    padding-left: 20px;
+  }
+
+  .mobile__menu__btn {
+    display: none;
+    @media screen and (max-width: 960px) {
+        display: block;  
+    }
+  }
+
+  .menu__mobile__item {
+    padding-top: 40px;
+    a {
+        color:$mobile-menu-text-color;    
+    }
+  }
+
+  .menu__item {
+    a {
+       
+        text-decoration: none;
+        @include font-style__font-size ("Raleway-Bold", $nav-font-size);
+        text-transform: uppercase;
+        transition: color ease 0.5s;
+        &:hover {
+            color: $red-color;
+        }
+    }
+}
+
+  .close__menu__btn {
+    width: 26px;
+    margin: 15px 15px 0 0;
+    cursor: pointer;
+  }
+
+  .nav__mobile {
+    flex-direction: column;
+  }
+
