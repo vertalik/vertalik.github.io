@@ -1,0 +1,42 @@
+@import './reset.css';
+@import './fonts.css';
+@import './var.css';
+@import './header.css';
+@import './intro-section.css';
+@import './vacancies-section.css';
+@import './dropdown.css';
+@import './welcome-section.css';
+@import './footer.css';
+@import './mobile-menu.css';
+@import './media.css';
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: var(--roboto-r);
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+.content__wrapper {
+  max-width: 1290px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+.hide{
+  display: none;
+}
+
+.show__mobile__selected-filters{
+  display: flex;
+}
+
+

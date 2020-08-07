@@ -1,0 +1,45 @@
+:root {
+  /* FONTS */
+  --bunker: 'Bunken Tech Sans Pro';
+  --inter: 'Inter';
+  --lato-b: 'Lato Bold';
+  --lato-r: 'Lato Regular';
+  --roboto-b: 'Roboto Bold';
+  --roboto-r: 'Roboto Regular';
+  --roboto-l: 'Roboto Light';
+  --segoe: 'Segoe UI';
+  --signika-b: 'Signika Bold';
+  --signika-r: 'Signika Regular';
+
+  /* MAIN STYLE */
+  --main-style-color: linear-gradient(90deg, #FF1500 0%, #FE7000 100%);
+  --hr-line-color: #E9E9ED;
+  --collaps-even-bg-color: #F8F8FC;
+  --vac-radio-bg-color: #DADADA;
+  --def-radius: 100px;
+  --hr-line-active: #FF1500;
+
+  /* FORM */
+  --form-text-color: #A4A4AE;
+  --form-input-bg: #F8F8FC;
+
+  /* INPUTS */
+  --intro-input-placeholder-color: rgba(0, 0, 0, 0.8);
+  --input-border-color: #EAEAEA;
+
+  /* SELECT */
+  --vac-select-text-color: #121212;
+  --vac-select-bg-color: #F8F8FC;
+
+  /* COLORS */
+  --black: #000;
+  --white: #fff;
+  --nav-text-color: #fff;
+  --intro-title-text-color: #000;
+  --intro-text-color: #121212;
+  --phone-email-text-color: #151515;
+  --vac-desc-color: #1B1B25;
+  --welcome-title-color:#1B1B25; 
+  --header-footer-bg: #121212;
+  --btn-text-color: #FF1500;
+}

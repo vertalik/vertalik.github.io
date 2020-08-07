@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <title>AppVesto</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content__wrapper">
+        <div class="header__content">
+          <input type="checkbox" id="mobileMenu" class="mobile__menu__trigger" />
+          <label for="mobileMenu" class="mobile__menu__btn">
+            <img src="./assets/img/mobile_menu.svg" alt="Mobile menu icon" />
+          </label>
+          <ul class="navigation__items hidden__menu">
+            <li class="nav__item"><a href="#">Our work</a></li>
+            <li class="nav__item"><a href="#">About us</a></li>
+            <li class="nav__item"><a href="#">Our technology</a></li>
+            <li class="nav__item"><a href="#">Contacts</a></li>
+            <li class="nav__item"><a href="#">Career</a></li>
+            <li class="nav__item">
+              <select class="mobile__lang__select" name="lang" id="langMobile">
+                <option value="eng">English</option>
+                <option value="heb">Hebrew</option>
+              </select>
+            </li>
+          </ul>
+          <div class="logo">
+            <img src="./assets/img/logo.svg" alt="AppVesto Logo" />
+          </div>
+          <div class="logo__mobile">
+            <img src="./assets/img/mobile_logo.svg" alt="Mobile Logo" />
+          </div>
+          <nav class="navigation__items__container">
+            <ul class="navigation__items">
+              <li class="nav__item"><a href="#">Our work</a></li>
+              <li class="nav__item"><a href="#">About us</a></li>
+              <li class="nav__item"><a href="#">Our technology</a></li>
+              <li class="nav__item"><a href="#">Contacts</a></li>
+              <li class="nav__item"><a href="#">Career</a></li>
+            </ul>
+          </nav>
+          <select class="lang__select" name="lang" id="lang">
+            <option value="eng">English</option>
+            <option value="heb">Hebrew</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content__wrapper">
+        <section class="intro">
+          <div class="intro__description">
+            <h1 class="intro__title">Join Our Team</h1>
+            <p class="intro__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+              et dolore magna aliquyam erat.
+            </p>
+            <div class="intro__input-wrapper">
+              <input type="text" class="intro__input" placeholder="Enter your email adress" />
+              <button class="intro__btn">Join Now</button>
+            </div>
+          </div>
+          <div class="intro__img">
+            <img src="./assets/img/main.svg" alt="Join Our Team image" />
+          </div>
+        </section>
+      </div>
+      <section class="vacancies">
+        <div class="content__wrapper">
+          <h2 class="vacancies__title">current vacancies</h2>
+        </div>
+        <div class="vacancies__nav__box">
+          <div class="content__wrapper">
+            <div class="filter__reset__wrapper">
+              <div class="filter__count__container">
+                <span class="filter__count">0</span>
+                <img src="./assets/img/close.svg" alt="Close arrow" class="mobile__filter__reset" />
+              </div>
+            </div>
+            <div class="vacancies__nav">
+              <div class="select-box">
+                <div class="select-box__current" tabindex="1">
+                  <div class="select-box__value">
+                    <input class="select-box__input" type="radio" id="0" value="All Vacancies" name="select" checked="checked"/>
+                    <p class="select-box__input-text">All Vacancies</p>
+                  </div>
+                  <div class="select-box__value">
+                    <input class="select-box__input" type="radio" id="1" value="PHP" name="select" />
+                    <p class="select-box__input-text">PHP</p>
+                  </div>
+                  <div class="select-box__value">
+                    <input class="select-box__input" type="radio" id="2" value="UI/UX" name="select" />
+                    <p class="select-box__input-text">UI/UX</p>
+                  </div>
+                  <img class="select-box__icon" src="./assets/img/arrow.svg" alt="Arrow Icon" aria-hidden="true"/>
+                </div>
+                <ul class="select-box__list">
+                  <li>
+                    <label class="select-box__option" for="0" >All Vacancies</label>
+                  </li>
+                  <li>
+                    <label class="select-box__option" for="1" >PHP</label>
+                  </li>
+                  <li>
+                    <label class="select-box__option" for="2" >UI/UX</label>
+                  </li>
+                </ul>
+              </div>
+              <div class="vacancies__radio">
+                <label class="container"
+                  >Any level
+                  <input type="radio" class="vac__radio" checked="checked" name="vac-radio" value="Any level" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container"
+                  >Junior
+                  <input type="radio" class="vac__radio" name="vac-radio" value="Junior" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container"
+                  >Middle
+                  <input type="radio" class="vac__radio" name="vac-radio" value="Middle" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container"
+                  >Senior
+                  <input type="radio" class="vac__radio" name="vac-radio" value="Senior" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <input type="checkbox" id="filter__trigger" class="filter__trigger__input" />
+              <label for="filter__trigger" class="filter__icon__trigger">
+                <img src="./assets/img/filter.svg" alt="Filter Icon" />
+              </label>
+              <ul class="filter__items">
+                <li class="filter__item">
+                  <input type="checkbox" id="filterItemFirst" class="filter__check__lable" value="Junior" />
+                  <label for="filterItemFirst" class="filter__item__trigger__lable">
+                    <span class="filter__item__text">Junior</span>
+                  </label>
+                </li>
+                <li class="filter__item">
+                  <input type="checkbox" id="filterItemSecond" class="filter__check__lable" value="Middle" />
+                  <label for="filterItemSecond" class="filter__item__trigger__lable">
+                    <span class="filter__item__text">Middle</span>
+                  </label>
+                </li>
+                <li class="filter__item">
+                  <input type="checkbox" id="filterItemThird" class="filter__check__lable" value="Senior" />
+                  <label for="filterItemThird" class="filter__item__trigger__lable">
+                    <span class="filter__item__text">Senior</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="content__wrapper">
+          <div class="accordion__wrapper">
+            <label class="accordion">
+              <input type="radio" name="radio-accordion" value="Junior" data-direction="PHP" />
+              <div class="accordion__header">
+                <img src="./assets/img/arrow.svg" alt="Arrow drop-down" />
+                <span>Junior PHP Developer</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__content__flex">
+                  <div class="accordion__content__description">
+                    <h3 class="accordion__description-title">Vacancy description</h3>
+                    <div class="accordion__description-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                  </div>
+                  <div class="accordion__content__contacts">
+                    <div class="accordion__contacts-phone">
+                      <img src="./assets/img/phone.svg" alt="Phone" />
+                      <a class="phone__number" href="tel:+38(097) 979 9797">+38(097) 979 9797</a>
+                    </div>
+                    <div class="summary__btn__wrapper">
+                      <button class="summary__btn">Send summary</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="accordion">
+              <input type="radio" name="radio-accordion" value="Middle" data-direction="UI/UX" />
+              <div class="accordion__header">
+                <img src="./assets/img/arrow.svg" alt="Arrow drop-down" />
+                <span>Middle UI/UX Designer</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__content__flex">
+                  <div class="accordion__content__description">
+                    <h3 class="accordion__description-title">Vacancy description</h3>
+                    <p class="accordion__description-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="accordion__content__contacts">
+                    <div class="accordion__contacts-phone">
+                      <img src="./assets/img/phone.svg" alt="Phone" />
+                      <a class="phone__number" href="tel:+380979799797">+38(097) 979 9797</a>
+                    </div>
+                    <div class="summary__btn__wrapper">
+                      <button class="summary__btn">Send summary</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="accordion">
+              <input type="radio" name="radio-accordion" value="Senior" data-direction="PHP" />
+              <div class="accordion__header">
+                <img src="./assets/img/arrow.svg" alt="Arrow drop-down" />
+                <span>Senior PHP Developer</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__content__flex">
+                  <div class="accordion__content__description">
+                    <h3 class="accordion__description-title">Vacancy description</h3>
+                    <p class="accordion__description-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="accordion__content__contacts">
+                    <div class="accordion__contacts-phone">
+                      <img src="./assets/img/phone.svg" alt="Phone" />
+                      <a class="phone__number" href="tel:+380979799797">+38(097) 979 9797</a>
+                    </div>
+                    <div class="summary__btn__wrapper">
+                      <button class="summary__btn">Send summary</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <label class="accordion">
+              <input type="radio" name="radio-accordion" data-direction="React Native" value="React Native" />
+              <div class="accordion__header">
+                <img src="./assets/img/arrow.svg" alt="Arrow drop-down" />
+                <span>React Native Developer</span>
+              </div>
+              <div class="accordion__content">
+                <div class="accordion__content__flex">
+                  <div class="accordion__content__description">
+                    <h3 class="accordion__description-title">Vacancy description</h3>
+                    <p class="accordion__description-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="accordion__content__contacts">
+                    <div class="accordion__contacts-phone">
+                      <img src="./assets/img/phone.svg" alt="Phone" />
+                      <a class="phone__number" href="tel:+380979799797">+38(097) 979 9797</a>
+                    </div>
+                    <div class="summary__btn__wrapper">
+                      <button class="summary__btn">Send summary</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div class="view-vacancies__btn__wrapper">
+            <button class="view-vacancies__btn">View all vacancies</button>
+          </div>
+        </div>
+      </section>
+      <section class="welcome__vesto">
+        <div class="content__wrapper">
+          <div class="welcome__wrapper">
+            <div class="welcome__form">
+              <h2 class="welcome__title">Welcome App Vesto!</h2>
+              <form action="#" method="POST" id="mainForm" name="mainForm">
+                <label>
+                  <span>First Name*</span>
+                  <input type="text" placeholder="Add your Name here" />
+                </label>
+                <label>
+                  <span>E-Mail Address*</span>
+                  <input type="email" placeholder="john.doe@internet.com" />
+                </label>
+                <div class="submit__container">
+                  <label for="fileToUpload">
+                    <div class="upload__container">
+                      <img src="./assets/img/upload_icon.svg" alt="Upload icon" />
+                      <span>Upload summary</span>
+                    </div>
+                  </label>
+                  <input class="upload__trigger" type="file" name="fileToUpload" id="fileToUpload" />
+                  <div class="form__btn__wrapper">
+                    <input class="form__submit" type="submit" value="Send" name="submit" />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="hr__contacts">
+              <h3 class="hr__title">HR Manager</h3>
+              <div class="hr__name__container">
+                <img src="./assets/img/user.svg" alt="User icon" />
+                <span class="hr__name">Anastasia Naumenko</span>
+              </div>
+              <div class="hr__phone__container">
+                <img src="./assets/img/phone.svg" alt="Phone icon" />
+                <a href="tel:+380979799797">+38(097) 979 9797</a>
+              </div>
+              <div class="hr__mail__container">
+                <img src="./assets/img/mail.svg" alt="Mail icon" />
+                <a href="mailto:anastasia@appvesto.com">anastasia@appvesto.com</a>
+              </div>
+              <span class="hr__skils">Wait your resume if you:</span>
+              <ul class="skils__list">
+                <li class="personal__skil">- Experience in sales of IT products from 1 year</li>
+                <li class="personal__skil">- Experience in negotiating and closing transactions</li>
+                <li class="personal__skil">- Ability to work on the result and show it in numbers</li>
+                <li class="personal__skil">- Good memory and quick learning</li>
+                <li class="personal__skil">- Energy in your voice and fire in your eyes!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content__wrapper">
+        <div class="footer__content">
+          <div class="footer__breadcrumbs">
+            <img src="./assets/img/logo_icon.svg" alt="Company icon" />
+            <span>></span>
+            <span>Our work</span>
+            <span>></span>
+            <span>Fridge</span>
+          </div>
+          <div class="footer__navigation__conteiner">
+            <nav>
+              <ul class="navigation__items footer__nav">
+                <li class="nav__item">Our work</li>
+                <li class="nav__item">About us</li>
+                <li class="nav__item">Contacts</li>
+                <li class="nav__item">Our technology</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__social__container">
+            <div class="footer__logo">
+              <img src="./assets/img/logo.svg" alt="AppVesto Logo" />
+            </div>
+            <span class="copyright">© 2019 AppVesto</span>
+            <div class="social__icons">
+              <a href="#"><img src="./assets/img/behance.svg" alt="Behance icon" /></a>
+              <a href="#"><img src="./assets/img/dribbble.svg" alt="Dribbble icon" /></a>
+              <a href="#"><img src="./assets/img/facebook.svg" alt="Facebook icon" /></a>
+              <a href="#"><img src="./assets/img/linkedin.svg" alt="LinkedIn icon" /></a>
+            </div>
+          </div>
+          <div class="footer__contacts__container">
+            <h2 class="footer__contacts__title">Contacts</h2>
+            <div class="footer__email__container">
+              <span>Email</span>
+              <a href="mailto:appvesto@gmail.com">appvesto@gmail.com</a>
+            </div>
+            <div class="footer__phone__container">
+              <span>Phone</span>
+              <a href="tel:+380980659285">+380 98 065 9285</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

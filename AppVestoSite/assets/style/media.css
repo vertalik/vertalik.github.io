@@ -1,0 +1,178 @@
+@media screen and (max-width: 1169px) {
+  .intro__title {
+    font-size: 3.5rem;
+  }
+  .welcome__title {
+    font-size: 2rem;
+  }
+  .vacancies__title {
+    font-size: 2rem;
+  }
+  .vacancies{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .intro__title {
+    font-size: 2.625rem; 
+  }
+  .intro__description {
+    align-items: center;
+  }
+  .intro__input-wrapper {
+    width: 100%;
+  }
+  .intro__input {
+    width: 50%;
+  }
+  .intro__img {
+    margin-bottom: 60px;
+  }
+  .nav__item {
+    margin-right: 15px;
+  }
+  .accordion__content__description {
+    margin: 30px 100px 20px 38px;
+  }
+  .vacancies__radio {
+    width: 60%;
+  }
+  .welcome__title{
+    font-size: 1.7rem;
+  }
+  .hr__contacts {
+    width: 50%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__items__container {
+    display: none;
+  }
+  .lang__select {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo__mobile {
+    display: block;
+  }
+  .header__content {
+    justify-content: flex-start;
+  }
+  .mobile__menu__btn {
+    display: block;
+  }
+  .intro {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .intro__title {
+    letter-spacing: -0.03em;
+  }
+  .intro__text {
+    margin: 17px 0;
+  }
+  .intro__input{
+    width: 50%;
+  }
+  .intro__description {
+    margin-bottom: 32px;
+  }
+  .vacancies__title{
+    font-size: 1.75rem;
+    margin-bottom: 32px;
+  }
+  .vacancies__radio {
+    display: none;
+  }
+  .select-box{
+    width: 70%;
+  }
+  .filter__icon__trigger{
+    display: flex;
+  }
+  .vacancies__nav{
+    margin-bottom: 25px;
+    padding: 10px 0 20px 0;
+  }
+  .accordion__content__flex{
+    flex-direction: column;
+  }
+  .accordion__content__description {
+    width: inherit;
+    margin: 0;
+  }
+  .accordion__description-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .summary__btn__wrapper {
+    width: max-content;
+  }
+  .accordion__content__contacts {
+    align-items: center;
+    margin: 20px 0;
+  }
+  .view-vacancies__btn__wrapper{
+    display: none;
+  }
+  .welcome__vesto{
+    padding-top: 30px;
+  }
+  .welcome__wrapper{
+    flex-direction: column;
+  }
+  .welcome__form{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .submit__container{
+    flex-direction: column;
+  }
+  .form__btn__wrapper{
+    margin-top: 30px;
+  }
+  .hr__contacts{
+    width: 100%;
+    padding: 10px;
+  }
+  .personal__skil{
+    font-size: 0.76rem;
+  }
+  .skils__list{
+    margin-bottom: 60px;
+  }
+  .footer{
+    margin-top: 60px;
+  }
+  .footer__content{
+    flex-direction: column;
+    padding: 24px 0;
+  }
+  .footer__navigation__conteiner{
+    display: none;
+  }
+  .footer__contacts__container{
+    display: none;
+  }
+  .copyright{
+    display: none;
+  }
+  .footer__breadcrumbs{
+    display: flex;
+  }
+  .footer__logo{
+    height: 23px;
+    margin: 40px 0 26px 0;
+  }
+  .social__icons{
+    width: 70%;
+  }
+}
