@@ -15,6 +15,10 @@
   z-index: 6;
 }
 
+.hidden__menu > .nav__item:last-child{
+  opacity: 1;
+}
+
 .mobile__menu__btn {
   padding-top: 20px;
   cursor: pointer;

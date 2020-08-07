@@ -21,10 +21,27 @@
             <li class="nav__item"><a href="#">Contacts</a></li>
             <li class="nav__item"><a href="#">Career</a></li>
             <li class="nav__item">
-              <select class="mobile__lang__select" name="lang" id="langMobile">
-                <option value="eng">English</option>
-                <option value="heb">Hebrew</option>
-              </select>
+              <div class="select-box select-box__lang select-box__lang__mobile">
+                <div class="select-box__current select-box__current__lang select-box__current__lang__mobile" tabindex="3">
+                  <div class="select-box__value">
+                    <input class="select-box__input" type="radio" id="langEngMobile" value="English" name="selectLangMobile" checked="checked"/>
+                    <p class="select-box__input-text select-box__input-text__lang select-box__input-text__lang__mobile">English</p>
+                  </div>
+                  <div class="select-box__value">
+                    <input class="select-box__input" type="radio" id="langHebMobile" value="Hebrew" name="selectLangMobile" />
+                    <p class="select-box__input-text select-box__input-text__lang select-box__input-text__lang__mobile">Hebrew</p>
+                  </div>
+                  <img class="select-box__icon select-box__icon__lang select-box__icon__lang__mobile" src="./assets/img/lang_arrow.svg" alt="Arrow Icon" aria-hidden="true"/>
+                </div>
+                <ul class="select-box__list select-box__list__mobile">
+                  <li>
+                    <label class="select-box__option select-box__option__lang select-box__option__lang__mobile" for="langEngMobile" >English</label>
+                  </li>
+                  <li>
+                    <label class="select-box__option select-box__option__lang select-box__option__lang__mobile" for="langHebMobile" >Hebrew</label>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <div class="logo">
@@ -42,10 +59,28 @@
               <li class="nav__item"><a href="#">Career</a></li>
             </ul>
           </nav>
-          <select class="lang__select" name="lang" id="lang">
-            <option value="eng">English</option>
-            <option value="heb">Hebrew</option>
-          </select>
+          <div class="select-box select-box__lang">
+            <div class="select-box__current select-box__current__lang" tabindex="2">
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="langEng" value="English" name="selectLang" checked="checked"/>
+                <p class="select-box__input-text select-box__input-text__lang ">English</p>
+              </div>
+              <div class="select-box__value">
+                <input class="select-box__input" type="radio" id="langHeb" value="Hebrew" name="selectLang" />
+                <p class="select-box__input-text select-box__input-text__lang">Hebrew</p>
+              </div>
+              <img class="select-box__icon select-box__icon__lang" src="./assets/img/lang_arrow.svg" alt="Arrow Icon" aria-hidden="true"/>
+            </div>
+            <ul class="select-box__list">
+              <li>
+                <label class="select-box__option select-box__option__lang" for="langEng" >English</label>
+              </li>
+              <li>
+                <label class="select-box__option select-box__option__lang" for="langHeb" >Hebrew</label>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </header>

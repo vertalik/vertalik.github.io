@@ -11,6 +11,9 @@
   .vacancies{
     margin-top: 20px;
   }
+  .select-box__lang{
+    width: 9%;
+  }
 }
 
 @media screen and (max-width: 939px) {
@@ -69,6 +72,13 @@
   .intro {
     flex-direction: column;
     margin-top: 50px;
+  }
+  .select-box__lang{
+    display: none;
+  }
+  .select-box__lang__mobile{
+    display: block;
+    width: 80%;
   }
 }
 

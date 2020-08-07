@@ -100,3 +100,44 @@
             transform: scaleY(0);
   }
 }
+
+.select-box__lang{
+  width: 6%;
+  font-family: var(--signika-r);
+  font-size: 0.75rem;
+  color: var(--white);
+  background: var(--header-footer-bg);
+}
+
+.select-box__input-text__lang{
+  background: var(--header-footer-bg);
+  padding: 0px;
+}
+
+.select-box__current__lang{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.select-box__option__lang{
+  color: var(--black);
+}
+
+.select-box__icon__lang{
+  width: 15%;
+  height: 15%;
+}
+
+.select-box__lang__mobile{
+  width: 80%;
+}
+
+.select-box__icon__lang__mobile{
+  width: 70%;
+  height: 70%;
+}
+
+.select-box__list__mobile{
+  margin-top: 10px;
+}
