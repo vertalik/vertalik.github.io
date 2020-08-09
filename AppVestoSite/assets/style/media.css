@@ -63,8 +63,9 @@
   .logo__mobile {
     display: block;
   }
-  .header__content {
-    justify-content: flex-start;
+  
+  .header__lang__mobile{
+    display: flex;
   }
   .mobile__menu__btn {
     display: block;
@@ -103,7 +104,7 @@
     display: none;
   }
   .select-box{
-    width: 70%;
+    width: 100%;
   }
   .filter__icon__trigger{
     display: flex;

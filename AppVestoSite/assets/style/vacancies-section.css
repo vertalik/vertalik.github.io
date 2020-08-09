@@ -112,6 +112,10 @@
   cursor: pointer;
 }
 
+.accordion__header:hover{
+  background: var(--vac-select-bg-color);
+}
+
 .accordion input {
   display: none;
   position: absolute;

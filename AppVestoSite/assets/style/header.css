@@ -12,10 +12,16 @@
   padding: 16px 0;
 }
 
+.header__lang__mobile{
+  width: 27%;
+  max-width: 90px;
+  display: none;
+}
+
 .logo__mobile {
   display: none;
   text-align: center;
-  width: 100%;
+  width: 40%;
 }
 
 .navigation__items {

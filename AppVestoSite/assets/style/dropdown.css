@@ -55,6 +55,7 @@
   position: absolute;
   width: 100%;
   padding: 0;
+  top:10px;
   list-style: none;
   z-index: 5;
   -webkit-animation-name: HideList;
@@ -69,8 +70,18 @@
           animation-timing-function: step-start;
   box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
 }
+
+.select-box__list > li:first-child{
+border-radius: 10px 10px 0 0;
+}
+
+.select-box__list > li:last-child{
+  border-radius: 0 0 10px 10px;
+}
+
 .select-box__option {
   display: block;
+  border-radius: inherit;
   padding: 15px;
   background: var(--vac-select-bg-color);
 }
@@ -134,10 +145,19 @@
 }
 
 .select-box__icon__lang__mobile{
-  width: 70%;
-  height: 70%;
+  width: 40%;
+  height: 40%;
 }
 
-.select-box__list__mobile{
-  margin-top: 10px;
+.select-box__list__mobile__header{
+  margin-top: 0;
+}
+
+.select-box__lang__mobile__header{
+  height: 100%;
+  width: 100%;
+}
+
+.select-box__icon__lang__mobile__header{
+  width: 15%;
 }

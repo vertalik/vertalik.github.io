@@ -14,14 +14,12 @@
           <label for="mobileMenu" class="mobile__menu__btn">
             <img src="./assets/img/mobile_menu.svg" alt="Mobile menu icon" />
           </label>
-          <ul class="navigation__items hidden__menu">
-            <li class="nav__item"><a href="#">Our work</a></li>
-            <li class="nav__item"><a href="#">About us</a></li>
-            <li class="nav__item"><a href="#">Our technology</a></li>
-            <li class="nav__item"><a href="#">Contacts</a></li>
-            <li class="nav__item"><a href="#">Career</a></li>
-            <li class="nav__item">
-              <div class="select-box select-box__lang select-box__lang__mobile">
+          <div class="aside__menu hidden__menu">
+            <div class="aside__menu__lang">
+              <label for="mobileMenu" class="mobile__menu__close__trigger">
+                <img src="./assets/img/close_arrow.svg" alt="Close arrow" />
+              </label>
+              <div class="select-box select-box__lang select-box__lang__mobile select-box__lang__mobile__nav">
                 <div class="select-box__current select-box__current__lang select-box__current__lang__mobile" tabindex="3">
                   <div class="select-box__value">
                     <input class="select-box__input" type="radio" id="langEngMobile" value="English" name="selectLangMobile" checked="checked"/>
@@ -42,13 +40,50 @@
                   </li>
                 </ul>
               </div>
-            </li>
-          </ul>
+            </div>
+            <ul class="navigation__items">
+              <li class="nav__item"><a href="#">Main</a></li>
+              <li class="nav__item"><a href="#">Our work</a></li>
+              <li class="nav__item"><a href="#">About us</a></li>
+              <li class="nav__item"><a href="#">Our technology</a></li>
+              <li class="nav__item"><a href="#">Contacts</a></li>
+            </ul>
+            <div class="social__icons">
+              <a href="#"><img src="./assets/img/behance.svg" alt="Behance icon" /></a>
+              <a href="#"><img src="./assets/img/dribbble.svg" alt="Dribbble icon" /></a>
+              <a href="#"><img src="./assets/img/facebook.svg" alt="Facebook icon" /></a>
+              <a href="#"><img src="./assets/img/linkedin.svg" alt="LinkedIn icon" /></a>
+            </div>
+          </div>
+
           <div class="logo">
             <img src="./assets/img/logo.svg" alt="AppVesto Logo" />
           </div>
           <div class="logo__mobile">
             <img src="./assets/img/mobile_logo.svg" alt="Mobile Logo" />
+          </div>
+          <div class="header__lang__mobile">
+            <div class="select-box select-box__lang select-box__lang__mobile select-box__lang__mobile__header">
+              <div class="select-box__current select-box__current__lang select-box__current__lang__mobile" tabindex="4">
+                <div class="select-box__value">
+                  <input class="select-box__input" type="radio" id="langEngMobileHeader" value="English" name="selectLangMobileHeader" checked="checked"/>
+                  <p class="select-box__input-text select-box__input-text__lang select-box__input-text__lang__mobile">English</p>
+                </div>
+                <div class="select-box__value">
+                  <input class="select-box__input" type="radio" id="langHebMobileHeader" value="Hebrew" name="selectLangMobileHeader" />
+                  <p class="select-box__input-text select-box__input-text__lang select-box__input-text__lang__mobile">Hebrew</p>
+                </div>
+                <img class="select-box__icon select-box__icon__lang select-box__icon__lang__mobile select-box__icon__lang__mobile__header" src="./assets/img/lang_arrow.svg" alt="Arrow Icon" aria-hidden="true"/>
+              </div>
+              <ul class="select-box__list select-box__list__mobile select-box__list__mobile__header">
+                <li>
+                  <label class="select-box__option select-box__option__lang select-box__option__lang__mobile" for="langEngMobileHeader" >English</label>
+                </li>
+                <li>
+                  <label class="select-box__option select-box__option__lang select-box__option__lang__mobile" for="langHebMobileHeader" >Hebrew</label>
+                </li>
+              </ul>
+            </div>
           </div>
           <nav class="navigation__items__container">
             <ul class="navigation__items">
