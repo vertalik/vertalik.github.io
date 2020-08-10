@@ -65,7 +65,7 @@
   margin-bottom: 0;
 }
 
-.aside__menu > .navigation__items > .nav__item > a:focus{
+.aside__menu > .navigation__items > .nav__item > a:focus {
   border-bottom: 1px solid var(--hr-line-active);
 }
 

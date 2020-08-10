@@ -106,6 +106,9 @@
   .select-box{
     width: 100%;
   }
+  .vacancies__nav > .select-box {
+    width: 80%;
+  }
   .filter__icon__trigger{
     display: flex;
   }
