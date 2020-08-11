@@ -161,3 +161,7 @@ border-radius: 10px 10px 0 0;
 .select-box__icon__lang__mobile__header{
   width: 15%;
 }
+
+.vacancies__nav > .select-box > .select-box__list {
+  top:40px;
+}
