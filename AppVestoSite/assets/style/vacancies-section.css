@@ -60,8 +60,8 @@
   position: absolute;
   top: 35%;
   left: 0;
-  height: 24px;
-  width: 24px;
+  height: 25.5px;
+  width: 25.5px;
   border: 2px solid #ff0000fa;
   border-radius: 50%;
 }
@@ -84,12 +84,16 @@
   display: block;
 }
 
+.container input:checked ~ .checkmark {
+  border: 0;
+}
+
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  top: 7.2px;
-  left: 7.2px;
-  width: 10px;
-  height: 10px;
+  top: calc(50% / 2);
+  left: calc(50% / 2);
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
   background: white;
 }
@@ -114,6 +118,7 @@
 
 .accordion__header:hover{
   background: var(--vac-select-bg-color);
+  color: var(--vac-header-checked-color);
 }
 
 .accordion input {
@@ -148,6 +153,11 @@
 .accordion input:checked ~ .accordion__content {
   display: block;
   border-bottom: 2px solid var(--hr-line-active);
+}
+
+.accordion input:checked ~ .accordion__header > span {
+  font-family: var(--roboto-b);
+  color: var(--vac-header-checked-color);
 }
 
 

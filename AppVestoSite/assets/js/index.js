@@ -3,6 +3,19 @@
 window.addEventListener('DOMContentLoaded', initApp);
 
 function initApp() {
+  let vacancieOpenedName = '';
+  const vacListWrapper = document.querySelector('.accordion__wrapper');
+  vacListWrapper.addEventListener('click', (e) => {
+    if (e.target.name === 'radio-accordion') {
+      if (vacancieOpenedName === e.target.value) {
+        const newName = toggleVacancies(e.target, vacancieOpenedName);
+        vacancieOpenedName = newName;
+      } else {
+        vacancieOpenedName = e.target.value;
+      }
+    }
+  });
+
   const mobileFilterResetBtn = document.querySelector('.mobile__filter__reset');
   mobileFilterResetBtn.addEventListener('click', resetMobileFilters);
 
@@ -10,20 +23,31 @@ function initApp() {
   viewAllVacanciesBtn.addEventListener('click', resetAllFilters);
 
   const vacanciesLevelCheck = document.querySelectorAll('input[name="vac-radio"');
-  vacanciesLevelCheck.forEach(radio => radio.addEventListener('change', filteringVacancies));
-  
+  vacanciesLevelCheck.forEach((radio) => radio.addEventListener('change', filteringVacancies));
+
   const vacanciesSelect = document.querySelectorAll('input[name="select"]');
-  vacanciesSelect.forEach(input => input.addEventListener('change', () => {
-    const isMobileFilterExist = document.querySelector('.filter__icon__trigger');
-    if (getComputedStyle(isMobileFilterExist).display === 'flex') {
-      filteringVacanciesMobileVer();
-    } else {
-      filteringVacancies();
-    }
-  }));
+  vacanciesSelect.forEach((input) =>
+    input.addEventListener('change', () => {
+      const isMobileFilterExist = document.querySelector('.filter__icon__trigger');
+      if (getComputedStyle(isMobileFilterExist).display === 'flex') {
+        filteringVacanciesMobileVer();
+      } else {
+        filteringVacancies();
+      }
+    }),
+  );
 
   const mobileLevelcheck = document.querySelectorAll('.filter__check__lable');
-  mobileLevelcheck.forEach(input => input.addEventListener('click', filteringVacanciesMobileVer));
+  mobileLevelcheck.forEach((input) => input.addEventListener('click', filteringVacanciesMobileVer));
+}
+
+function toggleVacancies(target, savedName) {
+  if (target.value === savedName) {
+    target.checked = false;
+  } else {
+    return target.value;
+  }
+  return '';
 }
 
 function getCheked(elements) {
@@ -74,10 +98,8 @@ function filteringVacanciesMobileVer() {
     for (let vac of vacanciesList) {
       if (filterArr.includes(vac.value) && vac.dataset.direction === getSelectedDirection) {
         vac.parentElement.classList.remove('hide');
-
       } else if (getSelectedDirection === 'All Vacancies' && filterArr.includes(vac.value)) {
         vac.parentElement.classList.remove('hide');
-
       } else {
         vac.parentElement.classList.add('hide');
       }
