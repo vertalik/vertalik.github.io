@@ -16,6 +16,15 @@ function initApp() {
     }
   });
 
+  const select = document.querySelector('.select-box__current__focus');
+  select.addEventListener('click', (e) => {
+    toggleVacanciesDropdown(e.target,select);
+  });
+
+  select.addEventListener('blur', () => {
+    select.dataset.dropdown = 'false';
+  })
+
   const mobileFilterResetBtn = document.querySelector('.mobile__filter__reset');
   mobileFilterResetBtn.addEventListener('click', resetMobileFilters);
 
@@ -39,6 +48,21 @@ function initApp() {
 
   const mobileLevelcheck = document.querySelectorAll('.filter__check__lable');
   mobileLevelcheck.forEach((input) => input.addEventListener('click', filteringVacanciesMobileVer));
+}
+
+function toggleVacanciesDropdown(target,select) {
+  const data = select.dataset.dropdown;
+  if (data === 'true') {
+    const focusElement = document.querySelector('.only__for__focus');
+    focusElement.focus();
+    select.dataset.dropdown = 'false';
+    return;
+  }
+  if (target.name === 'select') {
+    select.dataset.dropdown = 'false';
+  } else { 
+    select.dataset.dropdown = 'true';
+  }
 }
 
 function toggleVacancies(target, savedName) {
