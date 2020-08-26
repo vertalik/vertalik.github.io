@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $recepient = "Avtokoleso121@gmail.com";
 $sitename = "BH SENS";
